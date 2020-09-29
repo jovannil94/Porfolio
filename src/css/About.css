@@ -1,0 +1,35 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+}
+
+.aboutTitle {
+    width: fit-content;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: .4em;
+}
+
+.aboutBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+}

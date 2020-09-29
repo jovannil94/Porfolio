@@ -33,7 +33,6 @@ const NavBar = () => {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
                 >
-                <MenuItem onClick={handleClose} data-my-value={"home"}>Home</MenuItem>
                 <MenuItem onClick={handleClose} data-my-value={"about"}>About Me</MenuItem>
                 <MenuItem onClick={handleClose} data-my-value={"education"}>Education</MenuItem>
                 <MenuItem onClick={handleClose} data-my-value={"projects"}>Projects</MenuItem>
