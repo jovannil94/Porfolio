@@ -6,6 +6,11 @@
     height: 95vh;
 }
 
+.aboutContext {
+    display: flex;
+    flex-direction: row;
+}
+
 .aboutTitle {
     width: fit-content;
     height: fit-content;
@@ -18,7 +23,7 @@
     padding: .4em;
 }
 
-.aboutBody {
+.aboutLeft {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,4 +37,54 @@
     opacity: 0.85;
     cursor: default;
     padding: 1.5em;
+}
+.aboutRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: fit-content;
+}
+
+.aboutPicture {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+}
+
+.aboutConnect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+}
+
+.aboutLinks {
+    color: blue;
+    text-decoration: underline;
+}
+
+.aboutLinks:hover {
+    cursor: pointer;
+    color: purple;
 }
