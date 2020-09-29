@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
 import { Button, Menu, MenuItem } from '@material-ui/core';
+import "../css/NavBar.css";
 
 const NavBar = () => {
     const [anchorEl, setAnchorEl] = useState(null);
@@ -20,21 +21,26 @@ const NavBar = () => {
     }
 
     return (
-        <div>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-                Menu
-            </Button>
-            <Menu
-            id="simple-menu"
-            anchorEl={anchorEl}
-            keepMounted
-            open={Boolean(anchorEl)}
-            onClose={handleClose}
-            >
-            <MenuItem onClick={handleClose} data-my-value={"about"}>About Me</MenuItem>
-            <MenuItem onClick={handleClose} data-my-value={"projects"}>Projects</MenuItem>
-            <MenuItem onClick={handleClose} data-my-value={"skills"}>Skills</MenuItem>
-            </Menu>
+        <div className="navbarContainer">
+            <div className="dropDown">
+                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+                    Menu
+                </Button>
+                <Menu
+                id="simple-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+                >
+                <MenuItem onClick={handleClose} data-my-value={"home"}>Home</MenuItem>
+                <MenuItem onClick={handleClose} data-my-value={"about"}>About Me</MenuItem>
+                <MenuItem onClick={handleClose} data-my-value={"education"}>Education</MenuItem>
+                <MenuItem onClick={handleClose} data-my-value={"projects"}>Projects</MenuItem>
+                <MenuItem onClick={handleClose} data-my-value={"skills"}>Skills</MenuItem>
+                </Menu> 
+            </div>
+            <p>Jovanni Luna</p>
         </div>
     )
 }
