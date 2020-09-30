@@ -20,7 +20,7 @@ const CovidNearUs = () => {
                             Hackathon Presentation
                         </Typography>
                         <div className="videoContainer">
-                            <iframe title="covidNearUsDemo" width="560" height="315" src="https://www.youtube.com/embed/uMqwYI6RfcA?start=2120" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe title="covidNearUsDemo" width="560" height="315" src="https://www.youtube.com/embed/uMqwYI6RfcA?start=2120" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                     <div className="covidNearUsAbout">
@@ -28,13 +28,13 @@ const CovidNearUs = () => {
                             About
                         </Typography>
                         <Typography variant="body1" align="left" paragraph={true}>
-                            covidNearUs is a 10-week Capstone project with the aim of allowing users to post, share, and join others trips from around the world. We hope to connect and encourage people to travel, share photos, and make new friends. Hosted live, both front and backend, covidNearUs uses several complex components to achieve the functionality and UI/UX we deemed best for our users. 
+                            CovidNearUs is a 2-day <b>Codecademy-sponsored Hackathon</b> 3-person project that allows users to get quick information about the current status of the coronavirus across the US and all 50 states as well as aiding in finding local testing centers. As the United States struggles with reopening and closing across the nation, CovidNearUs is a vital tool for Americans to keep up to date with phases, news, and current numbers for each state. 
                         </Typography>
                         <Typography variant="body1" align="left" paragraph={true}>
-                            Our unique Hotspots Map feature was complicated but well worth the effort. Using several resting APIs such as Google’s geolocation, maps, driving directions, autocomplete as well as Google’s firebase and our own database, the Hotspots Map allows all users to post live Hotspots anywhere for the world to see. 
+                            CovidNearUs utilizes Twitter for quick information as most COVID-19 related articles provide extensive information that can be overwhelming for the average American. However, our approach includes using each state’s verified Department of Health Twitter to show recommendations, rules, phases, etc... to that specific state. While also encouraging users to get tested for the coronavirus, regardless of their location in the US, using Google’s geolocation and driving directions for local testing sites in their area equipped with phone numbers, addresses, and websites for each specific testing site. 
                         </Typography>
                         <Typography variant="body1" align="left" paragraph={true}>
-                            If you wish to see more explanations and Q&A sessions about the technical approaches to this application please feel free to visit the Youtube links below. 
+                            Codecademy software engineers judged each project based on certain criteria and awarded prizes. CovidNearUs won the <b>Most Ambitious Award</b> for our hard work we achieved within a 48 hour span. More special thanks to our Codecademy technical mentor Josh Goldberg, mParticle UI/UX mentor Sarah Skapik, Pursuit Web Development Instructor Corey Ladovsky, and Pursuit Program Manager Caroline Kang. I am extremely proud of this accomplishment and encourage you to see the feedback given to us by the Codecademy engineers by clicking below.
                         </Typography>
                         <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/uMqwYI6RfcA?t=6720')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Most Ambitious Award</Button>
                     </div>
@@ -46,7 +46,7 @@ const CovidNearUs = () => {
                     <Button startIcon={<HttpIcon/>} onClick={()=>window.open('https://covidnearus.netlify.app/')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> COVIDNearUs </Button>
                     <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/jovannil94/COVID-Hackathon')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> GitHub </Button>
                     <div className="frameContainer">
-                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714684406197448704" height="728" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714684406197448704" height="728" width="504" frameborder="0" allowFullScreen title="Embedded post"></iframe>
                     </div>
                 </div>
             </div>
