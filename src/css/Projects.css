@@ -1,4 +1,6 @@
 .projectsContainer {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: fit-content;
     background-color: #F3F3F3;

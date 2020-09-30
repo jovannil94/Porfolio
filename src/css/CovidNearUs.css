@@ -76,3 +76,94 @@
     cursor: default;
     padding: 1.5em;
 }
+
+@media (max-width: 770px) {
+    .covidNearUsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .covidNearUsTitle {
+        margin-top: 1em;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .covidNearUsContext {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .covidNearUsLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        height: fit-content;
+    }
+
+    .covidNearUsRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .covidNearUsVid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .covidNearUsAbout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+}
