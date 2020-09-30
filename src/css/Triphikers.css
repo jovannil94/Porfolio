@@ -1,0 +1,62 @@
+.tripHikersContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+}
+
+.tripHikersContext{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.tripHikersLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+}
+
+.tripHikersRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+}
+
+.tripHikersTitle {
+    margin-top: 1em;
+    width: 89vw;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: .2em;
+    margin-bottom: 1em;
+}
+
+.tripHikersVid {
+    width: 100%;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+}

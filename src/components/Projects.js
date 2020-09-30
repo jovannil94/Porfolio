@@ -1,10 +1,13 @@
 import React from "react";
+import "../css/Projects.css"
+import Triphikers from "../helper/Triphikers";
 
 const Projects = () => {
     return (
-        <div>
-            Projects
-        </div>
+        <main>
+            <Triphikers/>
+            
+        </main>
     )
 }
 

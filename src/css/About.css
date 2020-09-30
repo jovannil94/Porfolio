@@ -9,7 +9,7 @@
 .aboutContext {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -31,17 +31,11 @@
 .aboutLeft {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    /* justify-content: space-between; */
     width: 40%;
     height: fit-content;
 }
 
 .aboutRight {
-    /* display: flex;
-    flex-direction: column; */
-    /* align-items: center;
-    justify-content: space-between; */
     width: 40%;
     height: fit-content;
     background-color: lightblue;
