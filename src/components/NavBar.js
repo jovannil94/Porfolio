@@ -39,7 +39,6 @@ const NavBar = () => {
                 <MenuItem onClick={handleClose} data-my-value={"skills"}>Skills</MenuItem>
                 </Menu> 
             </div>
-            <p>Jovanni Luna</p>
         </div>
     )
 }
