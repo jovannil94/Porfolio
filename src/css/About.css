@@ -15,7 +15,7 @@
 
 .aboutTitle {
     margin-top: 1em;
-    width: fit-content;
+    width: 89vw;
     height: fit-content;
     background-color: lightblue;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -27,20 +27,21 @@
     margin-bottom: 1em;
 }
 
+
 .aboutLeft {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+    /* align-items: flex-start; */
+    /* justify-content: space-between; */
     width: 40%;
     height: fit-content;
 }
 
 .aboutRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center;
+    justify-content: space-between; */
     width: 40%;
     height: fit-content;
     background-color: lightblue;
@@ -53,6 +54,8 @@
 }
 
 .aboutPicture {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     height: fit-content;
     background-color: lightblue;
@@ -78,10 +81,6 @@
     opacity: 0.85;
     cursor: default;
     padding: 1.5em;
-}
-
-.aboutLinks {
-    margin-bottom: 5em;
 }
 
 @media (max-width: 770px) {
@@ -143,6 +142,7 @@
 
     .aboutPicture {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         width: 90vw;
@@ -208,7 +208,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 80vw;
         height: fit-content;
     }
@@ -217,7 +217,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 80vw;
         height: fit-content;
         background-color: lightblue;
@@ -232,6 +232,7 @@
 
     .aboutPicture {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         width: 80vw;
