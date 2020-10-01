@@ -12,7 +12,7 @@ const About = () => {
     return (
         <div className="aboutContainer" >
             <div className="aboutTitle">
-                <Typography variant="h2">
+                <Typography variant="h3">
                     Who Am I?
                 </Typography>    
             </div>

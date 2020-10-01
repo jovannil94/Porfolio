@@ -17,7 +17,7 @@ const EducationSkills = () => {
     return (
         <div className="esContainer" >
             <div className="esTitle">
-                <Typography variant="h2">
+                <Typography variant="h3">
                     Background
                 </Typography>    
             </div>

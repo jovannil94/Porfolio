@@ -20,7 +20,7 @@ const Triphikers = () => {
                             Capstone Presentation
                         </Typography>
                         <div className="videoContainer">
-                            <iframe title="triphikersDemo" width="560" height="315" src="https://www.youtube.com/embed/fJBdcmVWWoY?start=2510" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe title="triphikersDemo" width="560" height="315" src="https://www.youtube.com/embed/fJBdcmVWWoY?start=2510" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                     <div className="tripHikersAbout">
@@ -48,7 +48,7 @@ const Triphikers = () => {
                     <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/IsaiahCollazo99/triphikers')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> GitHub </Button>
                     <Button startIcon={<HttpIcon/>} onClick={()=>window.open('https://triphikers.netlify.app/')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> TRIPHIKERS </Button>
                     <div className="linkedInContainer">
-                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714695065781993472" height="766" width="504" frameborder="0" allowFullScreen title="Embedded post"></iframe>
+                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714695065781993472" height="766" width="504" frameBorder="0" allowFullScreen title="Embedded post"></iframe>
                     </div>
                 </div>
             </div>

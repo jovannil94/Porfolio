@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
 import { Button, Menu, MenuItem } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
 import "../css/NavBar.css";
 
 const NavBar = () => {
@@ -23,9 +24,7 @@ const NavBar = () => {
     return (
         <div className="navbarContainer">
             <div className="dropDown">
-                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-                    Menu
-                </Button>
+                <Button startIcon={<MenuIcon/>} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}/>
                 <Menu
                 id="simple-menu"
                 anchorEl={anchorEl}

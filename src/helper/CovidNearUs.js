@@ -20,7 +20,7 @@ const CovidNearUs = () => {
                             Hackathon Presentation
                         </Typography>
                         <div className="videoContainer">
-                            <iframe title="covidNearUsDemo" width="560" height="315" src="https://www.youtube.com/embed/uMqwYI6RfcA?start=2120" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe title="covidNearUsDemo" width="560" height="315" src="https://www.youtube.com/embed/uMqwYI6RfcA?start=2120" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                     <div className="covidNearUsAbout">
@@ -46,7 +46,7 @@ const CovidNearUs = () => {
                     <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/jovannil94/COVID-Hackathon')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> GitHub </Button>
                     <Button startIcon={<HttpIcon/>} onClick={()=>window.open('https://covidnearus.netlify.app/')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> COVIDNearUs </Button>
                     <div className="frameContainer">
-                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714684406197448704" height="728" width="504" frameborder="0" allowFullScreen title="Embedded post"></iframe>
+                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714684406197448704" height="728" width="504" frameBorder="0" allowFullScreen title="Embedded post"></iframe>
                     </div>
                 </div>
             </div>
