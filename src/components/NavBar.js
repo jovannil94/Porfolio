@@ -34,9 +34,8 @@ const NavBar = () => {
                 onClose={handleClose}
                 >
                 <MenuItem onClick={handleClose} data-my-value={"about"}>About Me</MenuItem>
-                <MenuItem onClick={handleClose} data-my-value={"education"}>Education</MenuItem>
+                <MenuItem onClick={handleClose} data-my-value={"education&skills"}>Education/Skills</MenuItem>
                 <MenuItem onClick={handleClose} data-my-value={"projects"}>Projects</MenuItem>
-                <MenuItem onClick={handleClose} data-my-value={"skills"}>Skills</MenuItem>
                 </Menu> 
             </div>
         </div>

@@ -34,7 +34,7 @@ const Triphikers = () => {
                             Our unique Hotspots Map feature was complicated but well worth the effort. Using several resting APIs such as Google’s geolocation, maps, driving directions, autocomplete as well as Google’s firebase and our own database, the Hotspots Map allows all users to post live Hotspots anywhere for the world to see. 
                         </Typography>
                         <Typography variant="body1" align="left" paragraph={true}>
-                            Special thanks to our Google technical mentor Josh Click, mParticle UI/UX mentor Sarah Skapik, Pursuit Web Development Instructor Corey Ladovsky, and Pursuit Program Manager Caroline Kang. If you wish to see more explanations and Q&A sessions about the technical approaches to this application please feel free to visit the Youtube links below. 
+                            Special thanks to our Google technical mentor Josh Click, mParticle UI/UX mentor Sarah Skapik, Pursuit Web Development Instructor Corey Ladovsky, Pursuit Program Manager Caroline Kang, and the 190 people who attended. If you wish to see more explanations and Q&A sessions about the technical approaches to this application please feel free to visit the Youtube links below. 
                         </Typography>
                         <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/XwrPQEWrUqo?t=2584')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 1 </Button>
                         <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/T1b6qX6qxJs?t=3603')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 2 </Button>
@@ -45,8 +45,8 @@ const Triphikers = () => {
                     <Typography variant="h4" paragraph={true}>
                         Check It Out
                     </Typography>
-                    <Button startIcon={<HttpIcon/>} onClick={()=>window.open('https://triphikers.netlify.app/')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> TRIPHIKERS </Button>
                     <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/IsaiahCollazo99/triphikers')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> GitHub </Button>
+                    <Button startIcon={<HttpIcon/>} onClick={()=>window.open('https://triphikers.netlify.app/')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> TRIPHIKERS </Button>
                     <div className="linkedInContainer">
                         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714695065781993472" height="766" width="504" frameborder="0" allowFullScreen title="Embedded post"></iframe>
                     </div>

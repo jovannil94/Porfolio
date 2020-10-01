@@ -1,0 +1,324 @@
+.esContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+}
+
+.esContext {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.esTitle {
+    margin-top: 1em;
+    width: 89vw;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: .2em;
+    margin-bottom: 1em;
+}
+
+
+.esLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+}
+
+.esRight {
+    width: 40%;
+    height: 78vh;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+}
+
+.esPursuit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+    margin-bottom: 1em;
+}
+
+.esBaruch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: fit-content;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    opacity: 0.85;
+    cursor: default;
+    padding: 1.5em;
+}
+
+.iconRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+    justify-content: space-evenly;
+}
+
+.skillsIcons {
+    width: 100px;
+    height: auto;
+    margin-bottom: 3em;
+}
+
+.skillsIcons:hover {
+    transition: transform .5s ease;
+    transform: scale(1.75);
+    cursor: pointer;
+}
+
+.hideTitle {
+    display: none;
+}
+
+.skillsIcons:hover + .hideTitle {
+    display: block;
+}
+
+@media (max-width: 770px) {
+    .esContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .esTitle {
+        margin-top: 1em;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .esContext {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .esLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        height: fit-content;
+    }
+
+    .esRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+    .esPursuit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .esBaruch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .iconRow{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 20vh;
+        justify-content: space-evenly;
+    }
+
+    .skillsIcons {
+        width: 125px;
+        height: auto;
+        margin-bottom: 1.3em;
+    }
+
+    .hideTitle {
+        display: block;
+    }
+}
+
+@media (max-width: 380px) {
+    .esContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .esTitle {
+        margin-top: 1em;
+        width: 80vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .esContext {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .esLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 80vw;
+        height: fit-content;
+    }
+
+    .esRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 80vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .esPursuit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .esBaruch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        height: fit-content;
+        background-color: lightblue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        opacity: 0.85;
+        cursor: default;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .iconRow{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+
+    .skillsIcons {
+        width: 200px;
+        height: auto;
+        margin-bottom: -.1em;
+    }
+
+    .hideTitle {
+        display: block;
+    }
+}
