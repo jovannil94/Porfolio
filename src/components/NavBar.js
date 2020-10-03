@@ -24,7 +24,7 @@ const NavBar = () => {
     return (
         <div className="navbarContainer">
             <div className="dropDown">
-                <Button startIcon={<MenuIcon/>} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}/>
+                <Button startIcon={<MenuIcon/>} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}/>
                 <Menu
                 id="simple-menu"
                 anchorEl={anchorEl}
