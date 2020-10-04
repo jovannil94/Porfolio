@@ -7,8 +7,24 @@ import InfoIcon from '@material-ui/icons/Info';
 import SchoolIcon from '@material-ui/icons/School';
 import CodeIcon from '@material-ui/icons/Code';
 import Moon from "../images/Moon.png";
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
+import { purple } from '@material-ui/core/colors';
 import "../css/NavBar.css";
 import clsx from 'clsx';
+
+const theme = createMuiTheme({
+    palette: {
+      primary: {
+        // Purple and green play nicely together.
+        main: purple[500],
+      },
+      secondary: {
+        // This is green.A700 as hex.
+        main: '#11cb5f',
+      },
+    },
+  });
 
 const useStyles = makeStyles({
     list: {
@@ -74,11 +90,12 @@ const useStyles = makeStyles({
 
     return (
         <div className="navbarContainer">
-            <AppBar position="static">
+        <ThemeProvider theme={theme}>
+            <AppBar color="primary" position="static">
                 <Toolbar>
                 <div className="navbarMenu">
                     <React.Fragment key={'left'}>
-                    <Button startIcon={<MenuIcon/>} onClick={toggleDrawer('left', true)}/>
+                    <Button style={{maxWidth: '100px', maxHeight: '60px', minWidth: '100px', minHeight: '60px'}} startIcon={<MenuIcon style={{transform: 'scale(2.5)'}}/>} onClick={toggleDrawer('left', true)}/>
                     <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
                         {list('left')}
                     </Drawer>
@@ -92,6 +109,7 @@ const useStyles = makeStyles({
                 </div>
                 </Toolbar>
             </AppBar>
+        </ThemeProvider>
         </div>
     )
 }
