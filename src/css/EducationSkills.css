@@ -136,7 +136,7 @@
     display: block;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .esContainer {
         display: flex;
         flex-direction: column;
@@ -242,7 +242,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 464px) {
     .esContainer {
         display: flex;
         flex-direction: column;

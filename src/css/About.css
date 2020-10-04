@@ -126,7 +126,7 @@
     height: 25vh;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .aboutContainer {
         display: flex;
         flex-direction: column;
@@ -213,7 +213,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 464px) {
     .aboutContainer {
         display: flex;
         flex-direction: column;

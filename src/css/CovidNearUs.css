@@ -146,7 +146,7 @@
     border-radius: 5px;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .covidNearUsContainer {
         display: flex;
         flex-direction: column;
@@ -272,7 +272,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 464px) {
     .covidNearUsContainer {
         display: flex;
         flex-direction: column;
