@@ -6,8 +6,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import InfoIcon from '@material-ui/icons/Info';
 import SchoolIcon from '@material-ui/icons/School';
 import CodeIcon from '@material-ui/icons/Code';
+import Moon from "../images/Moon.png";
+import "../css/NavBar.css";
 import clsx from 'clsx';
-// import "../css/NavBar.css";
 
 const useStyles = makeStyles({
     list: {
@@ -55,9 +56,9 @@ const useStyles = makeStyles({
                 <ListItemText primary={"EDUCATION & SKILLS"} />
             </ListItem>
             <Divider />
-            <ListItem onClick={handleClick} data-my-value={"projects"} button key={"Projects"}>
+            <ListItem onClick={handleClick} data-my-value={"projects"} button key={"PROJECTS"}>
                 <ListItemIcon>{<CodeIcon/>}</ListItemIcon>
-                <ListItemText primary={"Projects"} />
+                <ListItemText primary={"PROJECTS"} />
             </ListItem>
             <Divider />
           </List>
@@ -83,7 +84,10 @@ const useStyles = makeStyles({
                     </Drawer>
                     </React.Fragment>
                 </div>
-                
+                <img src={Moon} className="lunaLogo"/>
+                <Typography variant="h3">
+                    DevLuna
+                </Typography>
                 </Toolbar>
             </AppBar>
         </div>
