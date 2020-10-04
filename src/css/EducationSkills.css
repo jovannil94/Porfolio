@@ -136,7 +136,7 @@
     display: block;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1025px) {
     .esContainer {
         display: flex;
         flex-direction: column;

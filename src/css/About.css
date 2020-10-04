@@ -122,7 +122,7 @@
     height: 25vh;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1025px) {
     .aboutContainer {
         display: flex;
         flex-direction: column;

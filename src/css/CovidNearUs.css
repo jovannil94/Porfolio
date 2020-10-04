@@ -146,7 +146,7 @@
     border-radius: 5px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1025px) {
     .covidNearUsContainer {
         display: flex;
         flex-direction: column;
