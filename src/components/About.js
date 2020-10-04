@@ -28,13 +28,15 @@ const About = () => {
                         <Typography variant="h4">
                             Connect With Me
                         </Typography>
-                        <Typography variant="body1" align="center">
+                        <Typography variant="body1" align="center" paragraph={true}>
                         <b>Phone:</b> 917-232-0042
                         </Typography>
-                        <Button startIcon={<DescriptionIcon/>} onClick={()=>window.open('https://docs.google.com/document/d/1CA8DVkXFKTe8sec_udYi1kDJccfwlZFGqRcFSdXSyEY/edit?usp=sharing')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}> G Doc: Resume </Button>
-                        <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/jovannil94')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}>GitHub: jovannil94</Button>
-                        <Button startIcon={<LinkedInIcon/>} onClick={()=>window.open('https://www.linkedin.com/in/jovanniluna')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}> LinkedIn: jovanniluna </Button>
-                        <Button startIcon={<EmailIcon/>} onClick={()=>window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=jovanniluna@pursuit.org;jovannil94@gmail.com')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}>jovanniluna@pursuit.org</Button>
+                        <div className="buttonsAbout">
+                            <Button startIcon={<DescriptionIcon/>} onClick={()=>window.open('https://docs.google.com/document/d/1CA8DVkXFKTe8sec_udYi1kDJccfwlZFGqRcFSdXSyEY/edit?usp=sharing')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}> G Doc: Resume </Button>
+                            <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/jovannil94')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}>GitHub: jovannil94</Button>
+                            <Button startIcon={<LinkedInIcon/>} onClick={()=>window.open('https://www.linkedin.com/in/jovanniluna')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}> LinkedIn: jovanniluna </Button>
+                            <Button startIcon={<EmailIcon/>} onClick={()=>window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=jovanniluna@pursuit.org;jovannil94@gmail.com')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '270px', minHeight: '30px'}}>jovanniluna@pursuit.org</Button>
+                        </div>
                     </div>
                 </div>
                 <div className="aboutRight">

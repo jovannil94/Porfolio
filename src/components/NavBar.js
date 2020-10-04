@@ -87,7 +87,7 @@ const useStyles = makeStyles({
         if(e.currentTarget.dataset.myValue !== undefined) {
             menuRedirect(e.currentTarget.dataset.myValue);
             if(e.currentTarget.dataset.myValue === "Education&Skills"){
-              setPage("Education And Skills");
+              setPage("Education & Skills");
             } else {
               setPage(e.currentTarget.dataset.myValue);
             }
@@ -112,7 +112,7 @@ const useStyles = makeStyles({
                     {page}
                   </Typography>
                 </div>
-                <div onClick={handleClick} data-my-value={"about"} className="nameLogo">
+                <div onClick={handleClick} data-my-value={"About"} className="nameLogo">
                     <img src={Moon} alt="moon" className="lunaLogo"/>
                     <Typography variant="h3">
                         DevLuna
