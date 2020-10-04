@@ -86,6 +86,10 @@
     border: solid 3px #1D3557;
     color: #F1FAEE;
     border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: fit-content;
+    background-position: center center;
 }
 
 .aboutPicture:hover {
