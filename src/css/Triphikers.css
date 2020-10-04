@@ -69,6 +69,7 @@
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .videoContainer iframe, .videoContainer object, .videoContainer embed {
@@ -130,6 +131,7 @@
     background-color: #31729b;
     border: solid 3px #1D3557;
     color: #F1FAEE;
+    border-radius: 5px;
 }
 
 .linkedInContainer iframe {

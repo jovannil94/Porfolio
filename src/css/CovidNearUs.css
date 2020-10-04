@@ -114,6 +114,7 @@
     background-color: #31729b;
     border: solid 3px #1D3557;
     color: #F1FAEE;
+    border-radius: 5px;
 }
 
 .frameContainer iframe {
@@ -141,6 +142,7 @@
     right: 0;
     width: 100%;
     height: 100%; 
+    border-radius: 5px;
 }
 
 @media (max-width: 770px) {
@@ -156,7 +158,7 @@
         margin-top: 1em;
         width: 90vw;
         height: fit-content;
-        background-color: lightblue;
+
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
@@ -190,7 +192,7 @@
         justify-content: space-between;
         width: 90vw;
         height: fit-content;
-        background-color: lightblue;
+
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
@@ -207,7 +209,7 @@
         justify-content: space-between;
         width: 90vw;
         height: fit-content;
-        background-color: lightblue;
+
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
@@ -223,7 +225,7 @@
         align-items: center;
         width: 90vw;
         height: fit-content;
-        background-color: lightblue;
+
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
@@ -282,7 +284,6 @@
     margin-top: 1em;
     width: 89vw;
     height: fit-content;
-    background-color: lightblue;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -316,7 +317,7 @@
         justify-content: flex-start;
         width: 80vw;
         height: fit-content;
-        background-color: lightblue;
+
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
@@ -333,7 +334,7 @@
         justify-content: space-between;
         width: 80vw;
         height: fit-content;
-        background-color: lightblue;
+
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
@@ -349,7 +350,7 @@
         align-items: center;
         width: 80vw;
         height: fit-content;
-        background-color: lightblue;
+
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
