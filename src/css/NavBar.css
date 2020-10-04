@@ -1,6 +1,7 @@
 .navbarMenu {
-    float: left;
+    left: 0;
 }
+
 
 .nameLogo {
     display: flex;
@@ -20,4 +21,16 @@
     height: 40px;
     width: auto;
     margin-right: 10px;
+}
+
+/* .pageLocation {
+    position: absolute;
+    right: 0;
+    left: 0;
+} */
+
+@media (max-width: 450px) {
+    .pageLocation {
+        display: none;
+    }
 }

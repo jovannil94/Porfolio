@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Drawer, List, Divider, ListItem, ListItemIcon, ListItemText, AppBar, Toolbar, Typography } from '@material-ui/core';
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
@@ -36,6 +36,7 @@ const useStyles = makeStyles({
     const classes = useStyles();
     const history = useHistory();
     const menuRedirect = (value) => history.push(`/${value}`);
+    const [page, setPage] = useState("About");
     const [state, setState] = React.useState({
         left: false
       });
@@ -59,17 +60,17 @@ const useStyles = makeStyles({
           onKeyDown={toggleDrawer(anchor, false)}
         >
           <List>
-            <ListItem onClick={handleClick} data-my-value={"about"} button key={"ABOUT"}>
+            <ListItem onClick={handleClick} data-my-value={"About"} button key={"ABOUT"}>
                 <ListItemIcon>{<InfoIcon/>}</ListItemIcon>
                 <ListItemText primary={"ABOUT"} />
             </ListItem>
             <Divider />
-            <ListItem onClick={handleClick} data-my-value={"education&skills"} button key={"EDUCATION & SKILLS"}>
+            <ListItem onClick={handleClick} data-my-value={"Education&Skills"} button key={"EDUCATION & SKILLS"}>
                 <ListItemIcon>{<SchoolIcon/>}</ListItemIcon>
                 <ListItemText primary={"EDUCATION & SKILLS"} />
             </ListItem>
             <Divider />
-            <ListItem onClick={handleClick} data-my-value={"projects"} button key={"PROJECTS"}>
+            <ListItem onClick={handleClick} data-my-value={"Projects"} button key={"PROJECTS"}>
                 <ListItemIcon>{<CodeIcon/>}</ListItemIcon>
                 <ListItemText primary={"PROJECTS"} />
             </ListItem>
@@ -81,7 +82,12 @@ const useStyles = makeStyles({
     const handleClick = (e) => {
         e.preventDefault();
         if(e.currentTarget.dataset.myValue !== undefined) {
-            menuRedirect(e.currentTarget.dataset.myValue)
+            menuRedirect(e.currentTarget.dataset.myValue);
+            if(e.currentTarget.dataset.myValue === "Education&Skills"){
+              setPage("Education And Skills");
+            } else {
+              setPage(e.currentTarget.dataset.myValue);
+            }
         }
     }
 
@@ -97,6 +103,11 @@ const useStyles = makeStyles({
                         {list('left')}
                     </Drawer>
                     </React.Fragment>
+                </div>
+                <div className="pageLocation">
+                  <Typography variant="h3">
+                    {page}
+                  </Typography>
                 </div>
                 <div onClick={handleClick} data-my-value={"about"} className="nameLogo">
                     <img src={Moon} alt="moon" className="lunaLogo"/>
