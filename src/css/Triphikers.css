@@ -276,6 +276,18 @@
         width: 100%;
         height: 100%; 
     }
+
+    .buttonsContainer {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+        justify-content: space-evenly;
+        height: 25vh;
+        margin-bottom: 1em;
+    }
 }
 
 @media (max-width: 400px) {
@@ -401,6 +413,8 @@
     .buttonsContainer {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         height: max-content;
         justify-content: space-evenly;
