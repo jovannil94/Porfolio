@@ -18,7 +18,9 @@
 }
 
 .nameLogo:hover {
-    cursor: pointer;;
+    cursor: pointer;
+    transition: transform .5s ease;
+    transform: scale(1.02);
 }
 
 .lunaLogo {
