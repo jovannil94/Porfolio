@@ -73,10 +73,10 @@ const useStyles = makeStyles({
     }
 
     return (
-        <div>
+        <div className="navbarContainer">
             <AppBar position="static">
                 <Toolbar>
-                <div>
+                <div className="navbarMenu">
                     <React.Fragment key={'left'}>
                     <Button startIcon={<MenuIcon/>} onClick={toggleDrawer('left', true)}/>
                     <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
@@ -84,10 +84,12 @@ const useStyles = makeStyles({
                     </Drawer>
                     </React.Fragment>
                 </div>
-                <img src={Moon} className="lunaLogo"/>
-                <Typography variant="h3">
-                    DevLuna
-                </Typography>
+                <div onClick={handleClick} data-my-value={"about"} className="nameLogo">
+                    <img src={Moon} className="lunaLogo"/>
+                    <Typography variant="h3">
+                        DevLuna
+                    </Typography>
+                </div>
                 </Toolbar>
             </AppBar>
         </div>
