@@ -18,7 +18,7 @@ const theme = createMuiTheme({
         main: '#457B9D',
       },
       secondary: {
-        main: '#f1faee',
+        main: '#FFFFFF',
       },
     },
   });
@@ -92,7 +92,7 @@ const useStyles = makeStyles({
                 <Toolbar>
                 <div className="navbarMenu">
                     <React.Fragment key={'left'}>
-                    <Button color="primary" style={{maxWidth: '100px', maxHeight: '60px', minWidth: '100px', minHeight: '60px'}} startIcon={<MenuIcon style={{transform: 'scale(2.5)'}}/>} onClick={toggleDrawer('left', true)}/>
+                    <Button style={{maxWidth: '100px', maxHeight: '60px', minWidth: '100px', minHeight: '60px'}} startIcon={<MenuIcon style={{transform: 'scale(2.5)'}}/>} onClick={toggleDrawer('left', true)}/>
                     <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
                         {list('left')}
                     </Drawer>
