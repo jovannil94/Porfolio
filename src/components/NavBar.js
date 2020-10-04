@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Drawer, List, Divider, ListItem, ListItemIcon, ListItemText, AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
+import { Button, Drawer, List, Divider, ListItem, ListItemIcon, ListItemText, AppBar, Toolbar, Typography } from '@material-ui/core';
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -9,19 +9,16 @@ import CodeIcon from '@material-ui/icons/Code';
 import Moon from "../images/Moon.png";
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
-// import { purple } from '@material-ui/core/colors';
 import "../css/NavBar.css";
 import clsx from 'clsx';
 
 const theme = createMuiTheme({
     palette: {
       primary: {
-        // Purple and green play nicely together.
         main: '#457B9D',
       },
       secondary: {
-        // This is green.A700 as hex.
-        main: '#F1FAEE',
+        main: '#f1faee',
       },
     },
   });
@@ -95,14 +92,14 @@ const useStyles = makeStyles({
                 <Toolbar>
                 <div className="navbarMenu">
                     <React.Fragment key={'left'}>
-                    <Button style={{maxWidth: '100px', maxHeight: '60px', minWidth: '100px', minHeight: '60px'}} startIcon={<MenuIcon style={{transform: 'scale(2.5)'}}/>} onClick={toggleDrawer('left', true)}/>
+                    <Button color="primary" style={{maxWidth: '100px', maxHeight: '60px', minWidth: '100px', minHeight: '60px'}} startIcon={<MenuIcon style={{transform: 'scale(2.5)'}}/>} onClick={toggleDrawer('left', true)}/>
                     <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
                         {list('left')}
                     </Drawer>
                     </React.Fragment>
                 </div>
                 <div onClick={handleClick} data-my-value={"about"} className="nameLogo">
-                    <img src={Moon} className="lunaLogo"/>
+                    <img src={Moon} alt="moon" className="lunaLogo"/>
                     <Typography variant="h3">
                         DevLuna
                     </Typography>
