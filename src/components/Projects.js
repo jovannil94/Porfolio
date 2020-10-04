@@ -27,26 +27,26 @@ const responsive = {
 
 const Projects = () => {
     return (
-            <Carousel 
-            responsive={responsive}
-            swipeable={true}
-            draggable={true}
-            showDots={true}
-            responsive={responsive}
-            ssr={true}
-            infinite={true}
-            autoPlaySpeed={1000}
-            keyBoardControl={true}
-            customTransition="all .5"
-            transitionDuration={500}
-            containerClass="carousel-container"
-            deviceType={responsive.deviceType}
-            dotListClass="custom-dot-list-style"
-            itemClass="carousel-item-padding-40-px"
-            >
-                <div><Triphikers className="projectTriphikers"/></div>
-                <div><CovidNearUs className="projectCovidNearUs"/></div>
-            </Carousel>
+        <Carousel 
+        responsive={responsive}
+        swipeable={true}
+        draggable={true}
+        showDots={true}
+        responsive={responsive}
+        ssr={true}
+        infinite={true}
+        autoPlaySpeed={1000}
+        keyBoardControl={true}
+        customTransition="all .5"
+        transitionDuration={500}
+        containerClass="carousel-container"
+        deviceType={responsive.deviceType}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+        >
+            <div><Triphikers className="projectTriphikers"/></div>
+            <div><CovidNearUs className="projectCovidNearUs"/></div>
+        </Carousel>
     )
 }
 
