@@ -6,7 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import DescriptionIcon from '@material-ui/icons/Description';
 import EmailIcon from '@material-ui/icons/Email';
 import 'fontsource-roboto';
-import "../css/About.css"
+import "../css/About.css";
 
 const About = () => {
     return (

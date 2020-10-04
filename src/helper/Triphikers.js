@@ -36,17 +36,21 @@ const Triphikers = () => {
                         <Typography variant="body1" align="left" paragraph={true}>
                             Special thanks to our Google technical mentor Josh Click, mParticle UI/UX mentor Sarah Skapik, Pursuit Web Development Instructor Corey Ladovsky, Pursuit Program Manager Caroline Kang, and the 190 people who attended. If you wish to see more explanations and Q&A sessions about the technical approaches to this application please feel free to visit the Youtube links below. 
                         </Typography>
-                        <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/XwrPQEWrUqo?t=2584')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 1 </Button>
-                        <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/T1b6qX6qxJs?t=3603')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 2 </Button>
-                        <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/JZyE2J-MAHE?t=1380')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 3 </Button>
+                        <div className="buttonsContainer">
+                            <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/XwrPQEWrUqo?t=2584')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 1 </Button>
+                            <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/T1b6qX6qxJs?t=3603')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 2 </Button>
+                            <Button startIcon={<YouTubeIcon/>} onClick={()=>window.open('https://youtu.be/JZyE2J-MAHE?t=1380')} variant="contained" color="primary" className="aboutEmail" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> Q&A 3 </Button>
+                        </div>
                     </div>
                 </div>
                 <div className="tripHikersRight">
                     <Typography variant="h4" paragraph={true}>
                         Check It Out
                     </Typography>
-                    <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/IsaiahCollazo99/triphikers')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> GitHub </Button>
-                    <Button startIcon={<HttpIcon/>} onClick={()=>window.open('https://triphikers.netlify.app/')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> TRIPHIKERS </Button>
+                    <div className="buttonsContainer">
+                        <Button startIcon={<GitHubIcon/>} onClick={()=>window.open('https://github.com/IsaiahCollazo99/triphikers')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> GitHub </Button>
+                        <Button startIcon={<HttpIcon/>} onClick={()=>window.open('https://triphikers.netlify.app/')} variant="contained" color="primary" style={{maxWidth: '400px', maxHeight: '50px', minWidth: '160px', minHeight: '30px'}}> TRIPHIKERS </Button>
+                    </div>
                     <div className="linkedInContainer">
                         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6714695065781993472" height="766" width="504" frameBorder="0" allowFullScreen title="Embedded post"></iframe>
                     </div>
