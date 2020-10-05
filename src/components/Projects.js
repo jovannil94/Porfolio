@@ -26,18 +26,16 @@ const responsive = {
 
 const Projects = () => {
     return (
-        <Carousel 
+        <Carousel
         responsive={responsive}
         swipeable={true}
-        draggable={true}
         showDots={true}
-        responsive={responsive}
         ssr={true}
-        infinite={true}
-        autoPlaySpeed={1000}
         keyBoardControl={true}
-        customTransition="all .5"
+        customTransition="transform 600ms ease-in-out"
         transitionDuration={500}
+        arrows={true}
+        focusOnSelect={true}
         containerClass="carousel-container"
         deviceType={responsive.deviceType}
         dotListClass="custom-dot-list-style"
