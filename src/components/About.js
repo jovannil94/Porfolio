@@ -22,7 +22,7 @@ const About = () => {
                         <Typography variant="h4" paragraph={true}>
                             Jovanni David Luna
                         </Typography>
-                        <CardMedia className="aboutPhoto" image={profilePicture} component="img" alt="linkedInProfile" height="300"/>    
+                        <img className="aboutPhoto" src={profilePicture} alt="linkedInProfile"/>
                     </div>
                     <div className="aboutConnect">
                         <Typography variant="h4">
