@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, CardMedia, Button } from '@material-ui/core';
+import { Typography, Button } from '@material-ui/core';
 import profilePicture from "../images/linkedInPic.jpg";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
