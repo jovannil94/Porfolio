@@ -35,6 +35,7 @@ const Projects = () => {
         customTransition="transform 600ms ease-in-out"
         transitionDuration={500}
         arrows={true}
+        infinite={false}
         focusOnSelect={true}
         containerClass="carousel-container"
         deviceType={responsive.deviceType}
