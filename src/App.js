@@ -9,7 +9,7 @@ import "./css/App.css";
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      {/* <NavBar/> */}
       <Switch>
         <Route exact path={"/"} component={About}/>
         <Route exact path={"/About"} component={About}/>

@@ -32,9 +32,9 @@
     border-radius: 5px;
     opacity: 0.85;
     cursor: default;
-    background-color: #31729b;
-    border: solid 3px #1D3557;
-    color: #F1FAEE;
+    background-color: #f8f8f8;
+    border: solid 5px #1F3541;
+    color: #1F3541;
     padding: 1.5em;
 }
 
@@ -53,9 +53,9 @@
     opacity: 0.85;
     cursor: default;
     padding: .2em;
-    background-color: #31729b;
-    border: solid 3px #1D3557;
-    color: #F1FAEE;
+    background-color: #f8f8f8;
+    border: solid 5px #1F3541;
+    color: #1F3541;
     margin-bottom: 1em;
 }
 
@@ -90,9 +90,9 @@
     opacity: 0.85;
     cursor: default;
     padding: 1.5em;
-    background-color: #31729b;
-    border: solid 3px #1D3557;
-    color: #F1FAEE;
+    background-color: #f8f8f8;
+    border: solid 5px #1F3541;
+    color: #1F3541;
     margin-bottom: 1em;
 }
 
@@ -112,9 +112,9 @@
     border-radius: 5px;
     opacity: 0.85;
     cursor: default;
-    background-color: #31729b;
-    border: solid 3px #1D3557;
-    color: #F1FAEE;
+    background-color: #f8f8f8;
+    border: solid 5px #1F3541;
+    color: #1F3541;
     padding: 1.5em;
 }
 
@@ -129,9 +129,9 @@
     width: 100%;
     padding-top: 56.25%;
     height: 60vh;
-    background-color: #31729b;
-    border: solid 3px #1D3557;
-    color: #F1FAEE;
+    background-color: #f8f8f8;
+    border: solid 5px #1F3541;
+    color: #1F3541;
     border-radius: 5px;
 }
 

@@ -21,7 +21,7 @@ const theme = createMuiTheme({
         main: '#FFFFFF',
       },
       third: {
-        main: '#1D3557',
+        main: '#1F3541',
       },
     },
   });
@@ -95,33 +95,49 @@ const useStyles = makeStyles({
     }
 
     return (
-        <div className="navbarContainer">
-        <ThemeProvider theme={theme}>
-            <AppBar color="primary" position="static">
-                <Toolbar>
-                <div className="navbarMenu">
-                    <React.Fragment key={'left'}>
-                    <Button style={{maxWidth: '100px', maxHeight: '60px', minWidth: '100px', minHeight: '60px'}} startIcon={<MenuIcon style={{transform: 'scale(2.5)'}}/>} onClick={toggleDrawer('left', true)}/>
-                    <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
-                        {list('left')}
-                    </Drawer>
-                    </React.Fragment>
-                </div>
-                <div className="pageLocation">
-                  <Typography variant="h3">
-                    {page}
-                  </Typography>
-                </div>
-                <div onClick={handleClick} data-my-value={"About"} className="nameLogo">
-                    <img src={Moon} alt="moon" className="lunaLogo"/>
-                    <Typography variant="h3">
-                        DevLuna
-                    </Typography>
-                </div>
-                </Toolbar>
-            </AppBar>
-        </ThemeProvider>
+      <div class="w3-top">
+        <div class="w3-row w3-large w3-light-grey">
+        <div class="w3-col s3">
+        <a href="#" class="w3-button w3-block">Home</a>
+      </div>
+        <div class="w3-col s3">
+          <a href="#plans" class="w3-button w3-block">Plans</a>
         </div>
+        <div class="w3-col s3">
+          <a href="#about" class="w3-button w3-block">About</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#contact" class="w3-button w3-block">Contact</a>
+        </div>
+        </div>
+      </div>
+        // <div className="navbarContainer">
+        // <ThemeProvider theme={theme}>
+        //     <AppBar color="primary" position="static">
+        //         <Toolbar>
+        //         <div className="navbarMenu">
+        //             <React.Fragment key={'left'}>
+        //             <Button style={{maxWidth: '100px', maxHeight: '60px', minWidth: '100px', minHeight: '60px'}} startIcon={<MenuIcon style={{transform: 'scale(2.5)'}}/>} onClick={toggleDrawer('left', true)}/>
+        //             <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
+        //                 {list('left')}
+        //             </Drawer>
+        //             </React.Fragment>
+        //         </div>
+        //         <div className="pageLocation">
+        //           <Typography variant="h3">
+        //             {page}
+        //           </Typography>
+        //         </div>
+        //         <div onClick={handleClick} data-my-value={"About"} className="nameLogo">
+        //             <img src={Moon} alt="moon" className="lunaLogo"/>
+        //             <Typography variant="h3">
+        //                 DevLuna
+        //             </Typography>
+        //         </div>
+        //         </Toolbar>
+        //     </AppBar>
+        // </ThemeProvider>
+        // </div>
     )
 }
 

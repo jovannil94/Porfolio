@@ -11,7 +11,15 @@ import "../css/About.css";
 const About = () => {
     return (
         <div className="aboutContainer" >
-            <div className="aboutTitle">
+            <div className="aboutContent">
+                <div className="aboutIntro">
+                    <h1 className="aboutMe">Hi, my name is </h1>
+                    <h1 className="aboutName">Jovanni Luna</h1>
+                </div>
+                <h1 className="aboutMe">An aspiring Full-Stack Web Developer</h1>
+                <button className="aboutButton">Find Out More</button>
+            </div>
+            {/* <div className="aboutTitle">
                 <Typography variant="h3">
                     Who Am I?
                 </Typography>    
@@ -50,7 +58,7 @@ const About = () => {
                         When I am not coding, you can find me either watching or playing soccer, my favorite team of course is Real Madrid. Some other hobbies I have are playing chess, video games, learning new cultures, and keeping up to date with technology. I’ve been on a long journey of self-discovery, where I come from, how can I improve, where I am going, and the future is looking bright.
                     </Typography>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
