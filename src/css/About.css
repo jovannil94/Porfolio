@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: 1.5s ease-out 0s 1 slideLeftFade;
+    animation: 1.15s ease-in 0s 1 slideLeftFade;
     width: 60%;
 }
 
@@ -19,28 +19,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: 1.5s ease-out 0s 1 slideLeftFade;
+    animation: 1.15s ease-in 0s 1 slideLeftFade;
     width: 40%;
 }
 
-.aboutIntro {
+.aboutContext{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 50vh;
+}
+.aboutQuotePic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50vh;
+    width: 40%;
 }
 
 .aboutMe {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-}
-
-.aboutName {
-    color: #AFD8F2;
-    font-weight: 800;
+    text-align: left;
+    font-family: "Arial Black", sans-serif;
+    font-size: 38px;
 }
 
 .aboutButton {
-    max-width: 20%;
+    max-width: 40%;
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -78,24 +83,17 @@
 .aboutPhoto:hover {
     cursor: default;
     transition: transform .5s ease;
-    transform: scale(1.2);
+    transform: scale(2);
 }
+
 
 @keyframes slideLeftFade {
     0% {
-        transform: translateX(-250%);
+        transform: translateX(-30%);
         opacity: 0;
     }
     100% {
         transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes Fade {
-    0% {
-        opacity: 0;
-    }
-    100% {
         opacity: 1;
     }
 }
