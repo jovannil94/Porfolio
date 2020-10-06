@@ -20,7 +20,7 @@ const About = () => {
             <div className="aboutRight">
                 <div className="aboutQuotePic">
                     <img className="aboutPhoto" src={profilePicture} alt="linkedInProfile"/>
-                    <p>"I enjoy creating feature-rich applications and pushing the boundaries of what is possible"</p>
+                    <p className="aboutQuote">"I enjoy creating feature-rich applications and pushing the boundaries of what is possible"</p>
                 </div>
             </div>
             {/* <div className="aboutTitle">
