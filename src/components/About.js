@@ -11,13 +11,16 @@ import "../css/About.css";
 const About = () => {
     return (
         <div className="aboutContainer" >
-            <div className="aboutContent">
+            <div className="aboutLeft">
                 <div className="aboutIntro">
                     <h1 className="aboutMe">Hi, my name is </h1>
                     <h1 className="aboutName">Jovanni Luna</h1>
                 </div>
                 <h1 className="aboutMe">An aspiring Full-Stack Web Developer</h1>
                 <button className="aboutButton">Find Out More</button>
+            </div>
+            <div className="aboutRight">
+                <img className="aboutPhoto" src={profilePicture} alt="linkedInProfile"/>
             </div>
             {/* <div className="aboutTitle">
                 <Typography variant="h3">
