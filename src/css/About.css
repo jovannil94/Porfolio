@@ -26,6 +26,7 @@
     flex-direction: column;
     align-items: flex-start;
     max-height: 50vh;
+    animation: 1.9s ease-in 0s 1 aboutMeSlideLeftFade;
 }
 
 .aboutQuotePic {
@@ -37,11 +38,30 @@
     width: 50%;
 }
 
+.aboutFirstLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 77%;
+}
+
+.aboutName {
+    font-family: "Arial Black", sans-serif;
+    font-size: 40px;
+    color: #79bfeb;
+}
+
+.aboutName:hover {
+    cursor: default;
+    transition: transform .5s ease;
+    transform: scale(1.03);
+}
+
 .aboutMe {
     text-align: left;
     font-family: "Arial Black", sans-serif;
     font-size: 40px;
-    animation: 1.9s ease-in 0s 1 aboutMeSlideLeftFade;
 }
 
 .aboutMe:hover {
@@ -50,14 +70,22 @@
     transform: scale(1.03);
 }
 
+.aboutButtonContainer {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .aboutButton {
     background-color: #79bfeb;
     color: white;
-    max-width: 60%;
+    width: 30%;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: solid 2px #79bfeb;
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

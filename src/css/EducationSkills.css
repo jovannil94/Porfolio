@@ -1,32 +1,37 @@
 .esContainer {
+    /* display: flex;
+    flex-direction: row;
+    width: 100%;*/
+    height: 50vw;
+    /* background-color: #79bfeb; */
+    background-image: linear-gradient(45deg, #0231ce, #79bfeb);
+    transform: skewY(-8deg);
+}
+
+.esContext {
+    max-width: 50em;
+    margin: 0 auto;
+    transform: skewY(8deg);
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100vw;
-    background-color: #79bfeb;
 }
 
 .esLeft {
-    display: flex;
-    margin-top: 2em;
-    flex-direction: column;
-    align-items: center;
     width: 50%;
 }
 .esRight {
     display: flex;
-    margin-top: 2em;
     flex-direction: column;
-    align-items: center;
     width: 50%;
 }
 
 .esPursuit {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    /* width: 100%; */
     height: fit-content;
-    justify-content: space-evenly;
+    animation: 2.6s ease-in 0s 1 slideUpFade;
+    /* justify-content: space-evenly; */
 }
 
 .esTitle {
@@ -56,9 +61,13 @@
 .iconRow {
     display: flex;
     flex-direction: row;
-    width: 80%;
-    height: 25vh;
+    width: 100%;
+    height: 30vh;
     justify-content: space-evenly;
+}
+
+.iconDetails {
+    width: 100%;
 }
 
 .skillsIcons {
@@ -70,7 +79,7 @@
 .skillsIcons:hover {
     cursor: default;
     transition: transform .5s ease;
-    transform: scale(1.75);
+    transform: scale(1.5);
 }
 
 .hideTitle {
@@ -81,6 +90,20 @@
 
 .skillsIcons:hover + .hideTitle {
     display: block;
+}
+
+@keyframes slideUpFade {
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* .esContext {
