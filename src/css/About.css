@@ -10,8 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: 1.35s ease-in 0s 1 slideLeftFade;
-    width: 60%;
+    width: 70%;
 }
 
 .aboutRight {
@@ -19,8 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: 1.35s ease-in 0s 1 slideLeftFade;
-    width: 40%;
+    width: 30%;
 }
 
 .aboutContext{
@@ -42,7 +40,8 @@
 .aboutMe {
     text-align: left;
     font-family: "Arial Black", sans-serif;
-    font-size: 38px;
+    font-size: 40px;
+    animation: 1.9s ease-in 0s 1 aboutMeSlideLeftFade;
 }
 
 .aboutMe:hover {
@@ -55,18 +54,19 @@
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border: solid 2px #AFD8F2;
-    padding: 20px;
+    border: solid 2px #79bfeb;
+    padding: 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    color: #AFD8F2;
+    color: #79bfeb;
     border-radius: 12px;
+    animation: 2.6s ease-in 0s 1 buttonSlideLeftFade;
 }
 
 .aboutButton:hover {
-    background-color: #AFD8F2;
+    background-color: #79bfeb;
     color: white;
     cursor: pointer;
     transition: transform .5s ease;
@@ -80,11 +80,12 @@
 .aboutPhoto {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border: solid 2px #AFD8F2;
-    width: 300px;
-    height: 300px;
+    border: solid 2px #79bfeb;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 2em;
+    animation: 1.9s ease-in 0s 1 aboutMeSlideLeftFade;
 }
 
 .aboutPhoto:hover {
@@ -95,7 +96,8 @@
 
 .aboutQuote {
     color: darkgrey;
-    font-size: 18px;
+    font-size: 20px;
+    animation: 2.6s ease-in 0s 1 buttonSlideLeftFade;
 }
 
 .aboutQuote:hover {
@@ -103,10 +105,26 @@
     transform: scale(1.03);
 }
 
-
-@keyframes slideLeftFade {
+@keyframes aboutMeSlideLeftFade {
     0% {
-        transform: translateX(-30%);
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes buttonSlideLeftFade {
+    0% {
+        transform: translateX(-15%);
+        opacity: 0;
+    }
+    80% {
         opacity: 0;
     }
     100% {

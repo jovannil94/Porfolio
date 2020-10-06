@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <About/>
+      <EducationSkills/>
       {/* <NavBar/> */}
       {/* <Switch>
         <Route exact path={"/"} component={About}/>
