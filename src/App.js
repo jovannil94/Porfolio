@@ -9,13 +9,14 @@ import "./css/App.css";
 function App() {
   return (
     <div className="App">
+      <About/>
       {/* <NavBar/> */}
-      <Switch>
+      {/* <Switch>
         <Route exact path={"/"} component={About}/>
         <Route exact path={"/About"} component={About}/>
         <Route exact path={"/Education&Skills"} component={EducationSkills}/>
         <Route exact path={"/Projects"} component={Projects}/>
-      </Switch>
+      </Switch> */}
     </div>
   );
 }
