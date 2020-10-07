@@ -19,9 +19,9 @@ const About = () => {
                     </div>
                     <p className="aboutMe">An aspiring Full-Stack Web Developer</p>
                     <div className="aboutButtonContainer">
-                        <button className="aboutButton">Contact</button>
                         <button className="aboutButton">Skills</button>
                         <button className="aboutButton">Projects</button>
+                        <button className="aboutButton">Contact</button>
                     </div>
                 </div>
             </div>

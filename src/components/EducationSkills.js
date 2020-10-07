@@ -16,60 +16,62 @@ import "../css/EducationSkills.css";
 
 const EducationSkills = () => {
     return (
-        <div className="esContainer" >
-            {/* <h1>Education & Skills</h1> */}
-            <div className="esContext">
-                <div className="esLeft">
-                    <div className="esPursuit">
-                        <div className="pursuitLinks">
-                            <p className="esTitle" onClick={()=>window.open('https://www.pursuit.org/')}>Pursuit</p>
-                            <img src={pursuitIcon} alt="pursuit" className="pursuitIcon" onClick={()=>window.open('https://www.pursuit.org/')}/>
-                        </div>
-                        <p className="esP">Enrolled in an intensive 12-month, Google-funded software engineering fellowship with a 9% acceptance rate (out of 1500+ applicants) whose graduates are prepared with both technical and professional skills and have been hired as developers at leading companies such as Pinterest, JP Morgan, and Spotify.</p>
-                        <p className="esP">Gained hands-on experience with Javascript, HTML, CSS, Node, Express, React/Redux, PostgreSQL, APIs, Git, Data Structures, Algorithms, and tech principles and culture via both team/individual projects, code reviews, and pair programming.</p>
-                    </div>
-                </div>
-                <div className="esRight">
-                    <div className="iconRow">
-                        <div className="iconDetails">
-                            <img src={jsIcon} alt="js" className="skillsIcons"/>
-                            <p className="hideTitle">JavaScript</p>
-                        </div>
-                        <div className="iconDetails">
-                            <img src={reactIcon} alt="react" className="skillsIcons"/>
-                            <p className="hideTitle">React</p>
-                        </div>
-                        <div className="iconDetails">
-                            <img src={gitIcon} alt="git" className="skillsIcons"/>
-                            <p className="hideTitle">Git</p>
+        <div className="esContainer">
+            <h1 className="portfolioTitle">Education & Skills</h1>
+            <div className="esPage">
+                <div className="esContext">
+                    <div className="esLeft">
+                        <div className="esPursuit">
+                            <div className="pursuitLinks">
+                                <p className="esTitle" onClick={()=>window.open('https://www.pursuit.org/')}>Pursuit</p>
+                                <img src={pursuitIcon} alt="pursuit" className="pursuitIcon" onClick={()=>window.open('https://www.pursuit.org/')}/>
+                            </div>
+                            <p className="esP">Enrolled in an intensive 12-month, Google-funded software engineering fellowship with a 9% acceptance rate (out of 1500+ applicants) whose graduates are prepared with both technical and professional skills and have been hired as developers at leading companies such as Pinterest, JP Morgan, and Spotify.</p>
+                            <p className="esP">Gained hands-on experience with Javascript, HTML, CSS, Node, Express, React/Redux, PostgreSQL, APIs, Git, Data Structures, Algorithms, and tech principles and culture via both team/individual projects, code reviews, and pair programming.</p>
                         </div>
                     </div>
-                    <div className="iconRow">
-                        <div className="iconDetails">
-                            <img src={cssIcon} alt="css" className="skillsIcons"/>
-                            <p className="hideTitle">CSS</p>
+                    <div className="esRight">
+                        <div className="iconRow">
+                            <div className="iconDetails">
+                                <img src={jsIcon} alt="js" className="skillsIcons"/>
+                                <p className="hideTitle">JavaScript</p>
+                            </div>
+                            <div className="iconDetails">
+                                <img src={reactIcon} alt="react" className="skillsIcons"/>
+                                <p className="hideTitle">React</p>
+                            </div>
+                            <div className="iconDetails">
+                                <img src={gitIcon} alt="git" className="skillsIcons"/>
+                                <p className="hideTitle">Git</p>
+                            </div>
                         </div>
-                        <div className="iconDetails">
-                            <img src={htmlIcon} alt="html" className="skillsIcons"/>
-                            <p className="hideTitle">HTML</p>
+                        <div className="iconRow">
+                            <div className="iconDetails">
+                                <img src={cssIcon} alt="css" className="skillsIcons"/>
+                                <p className="hideTitle">CSS</p>
+                            </div>
+                            <div className="iconDetails">
+                                <img src={htmlIcon} alt="html" className="skillsIcons"/>
+                                <p className="hideTitle">HTML</p>
+                            </div>
+                            <div className="iconDetails">
+                                <img src={postgresIcon} alt="postgreSQL" className="skillsIcons"/>
+                                <p className="hideTitle">PostgreSQL</p>
+                            </div>
                         </div>
-                        <div className="iconDetails">
-                            <img src={postgresIcon} alt="postgreSQL" className="skillsIcons"/>
-                            <p className="hideTitle">PostgreSQL</p>
-                        </div>
-                    </div>
-                    <div className="iconRow">
-                        <div className="iconDetails">
-                            <img src={nodeIcon} alt="node" className="skillsIcons"/>
-                            <p className="hideTitle">Node JS</p>
-                        </div>
-                        <div className="iconDetails">
-                            <img src={postIcon} alt="post" className="skillsIcons"/>
-                            <p className="hideTitle">Postman</p>
-                        </div>
-                        <div className="iconDetails">
-                            <img src={expressIcon} alt="express" className="skillsIcons"/>
-                            <p className="hideTitle">Express JS</p>
+                        <div className="iconRow">
+                            <div className="iconDetails">
+                                <img src={nodeIcon} alt="node" className="skillsIcons"/>
+                                <p className="hideTitle">Node JS</p>
+                            </div>
+                            <div className="iconDetails">
+                                <img src={postIcon} alt="post" className="skillsIcons"/>
+                                <p className="hideTitle">Postman</p>
+                            </div>
+                            <div className="iconDetails">
+                                <img src={expressIcon} alt="express" className="skillsIcons"/>
+                                <p className="hideTitle">Express JS</p>
+                            </div>
                         </div>
                     </div>
                 </div>
