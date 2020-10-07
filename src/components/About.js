@@ -13,11 +13,9 @@ const About = () => {
         <div className="aboutContainer" >
             <div className="aboutLeft">
                 <div className="aboutContext">
-                    <div className="aboutFirstLine">
-                        <p className="aboutMe">Hi, my name is </p>
-                        <p className="aboutName">Jovanni Luna</p>
+                    <div className className="aboutIntro">
+                        <p className="aboutMe">Hi, my name is <i className="aboutName">Jovanni Luna</i><br/>An aspiring Full-Stack Web Developer</p>
                     </div>
-                    <p className="aboutMe">An aspiring Full-Stack Web Developer</p>
                     <div className="aboutButtonContainer">
                         <button className="aboutButton">Skills</button>
                         <button className="aboutButton">Projects</button>

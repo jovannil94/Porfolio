@@ -41,21 +41,20 @@
 .aboutFirstLine {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     width: 77%;
+    margin: 0px;
+}
+
+.aboutIntro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .aboutName {
-    font-family: "Arial Black", sans-serif;
-    font-size: 40px;
     color: #79bfeb;
-}
-
-.aboutName:hover {
-    cursor: default;
-    transition: transform .5s ease;
-    transform: scale(1.03);
+    font-style: normal;
 }
 
 .aboutMe {
@@ -89,9 +88,9 @@
 }
 
 .aboutButton:hover {
+    cursor: pointer;
     background-color: white;
     color: #79bfeb;
-    cursor: pointer;
     transition: transform .5s ease;
     transform: scale(1.1);
 }

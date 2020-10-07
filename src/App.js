@@ -5,10 +5,12 @@ import About from "./components/About.js";
 import EducationSkills from "./components/EducationSkills.js";
 import Projects from "./components/Projects.js";
 import "./css/App.css";
+import ScrollToTop from './helper/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop/>
       <About/>
       <EducationSkills/>
       <Projects/>
