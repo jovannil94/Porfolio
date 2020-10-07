@@ -8,7 +8,11 @@ import EmailIcon from '@material-ui/icons/Email';
 import 'fontsource-roboto';
 import "../css/About.css";
 
-const About = () => {
+const About = ({ eduSkillSection, projectsSection }) => {
+
+    const gotToEduSkillSection = () => window.scrollTo({ top: eduSkillSection.current.offsetTop, behavior:"smooth" });
+    const gotToProjectsSection = () => window.scrollTo({ top: projectsSection.current.offsetTop, behavior:"smooth" });
+
     return (
         <div className="aboutContainer" >
             <div className="aboutLeft">
@@ -17,8 +21,8 @@ const About = () => {
                         <p className="aboutMe">Hi, my name is <i className="aboutName">Jovanni Luna</i><br/>An aspiring Full-Stack Web Developer</p>
                     </div>
                     <div className="aboutButtonContainer">
-                        <button className="aboutButton">Skills</button>
-                        <button className="aboutButton">Projects</button>
+                        <button className="aboutButton" onClick={gotToEduSkillSection}>Skills</button>
+                        <button className="aboutButton" onClick={gotToProjectsSection}>Projects</button>
                         <button className="aboutButton">Contact</button>
                     </div>
                 </div>

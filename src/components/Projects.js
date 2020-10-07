@@ -24,9 +24,9 @@ const responsive = {
   }
 };
 
-const Projects = () => {
+const Projects = ({ projectsSection }) => {
     return (
-        <div className="porfolioContainer">
+        <div className="porfolioContainer" ref={projectsSection}>
           <h1 className="projectTitle">Projects</h1>
           <Carousel
           responsive={responsive}

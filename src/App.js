@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import NavBar from './components/NavBar';
 import { Route, Switch } from "react-router-dom";
 import About from "./components/About.js";
@@ -8,12 +8,15 @@ import "./css/App.css";
 import ScrollToTop from './helper/ScrollToTop';
 
 function App() {
+  const eduSkillSection = useRef(null);
+  const projectsSection = useRef(null);
+
   return (
     <div className="App">
       <ScrollToTop/>
-      <About/>
-      <EducationSkills/>
-      <Projects/>
+      <About eduSkillSection={eduSkillSection} projectsSection={projectsSection}/>
+      <EducationSkills eduSkillSection={eduSkillSection}/>
+      <Projects projectsSection={projectsSection}/>
       {/* <NavBar/> */}
       {/* <Switch>
         <Route exact path={"/"} component={About}/>

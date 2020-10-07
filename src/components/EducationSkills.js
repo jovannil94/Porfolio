@@ -14,9 +14,9 @@ import pursuitIcon from "../images/icons/pursuitIcon.jpg";
 import 'fontsource-roboto';
 import "../css/EducationSkills.css";
 
-const EducationSkills = () => {
+const EducationSkills = ({ eduSkillSection }) => {
     return (
-        <div className="esContainer">
+        <div className="esContainer" ref={eduSkillSection}>
             <h1 className="esTitle">Education & Skills</h1>
             <div className="esPage">
                 <div className="esContext">
