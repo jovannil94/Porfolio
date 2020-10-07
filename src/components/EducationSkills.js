@@ -10,16 +10,21 @@ import postIcon from "../images/icons/postmanIcon.png";
 import reactIcon from "../images/icons/reactIcon.png";
 import expressIcon from "../images/icons/expressIcon.png";
 import postgresIcon from "../images/icons/postgreSQLIcon.png";
+import pursuitIcon from "../images/icons/pursuitIcon.jpg";
 import 'fontsource-roboto';
 import "../css/EducationSkills.css";
 
 const EducationSkills = () => {
     return (
         <div className="esContainer" >
+            {/* <h1>Education & Skills</h1> */}
             <div className="esContext">
                 <div className="esLeft">
                     <div className="esPursuit">
-                        <p className="esTitle">Pursuit</p>
+                        <div className="pursuitLinks">
+                            <p className="esTitle" onClick={()=>window.open('https://www.pursuit.org/')}>Pursuit</p>
+                            <img src={pursuitIcon} alt="pursuit" className="pursuitIcon" onClick={()=>window.open('https://www.pursuit.org/')}/>
+                        </div>
                         <p className="esP">Enrolled in an intensive 12-month, Google-funded software engineering fellowship with a 9% acceptance rate (out of 1500+ applicants) whose graduates are prepared with both technical and professional skills and have been hired as developers at leading companies such as Pinterest, JP Morgan, and Spotify.</p>
                         <p className="esP">Gained hands-on experience with Javascript, HTML, CSS, Node, Express, React/Redux, PostgreSQL, APIs, Git, Data Structures, Algorithms, and tech principles and culture via both team/individual projects, code reviews, and pair programming.</p>
                     </div>

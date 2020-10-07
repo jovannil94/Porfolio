@@ -1,23 +1,23 @@
 .esContainer {
-    /* display: flex;
-    flex-direction: row;
-    width: 100%;*/
     height: 50vw;
-    /* background-color: #79bfeb; */
     background-image: linear-gradient(45deg, #0231ce, #79bfeb);
-    transform: skewY(-8deg);
+    transform: skewY(-6deg);
 }
 
 .esContext {
-    max-width: 50em;
+    max-width: 85em;
+    height: fit-content;
     margin: 0 auto;
-    transform: skewY(8deg);
+    transform: skewY(6deg);
     display: flex;
     flex-direction: row;
 }
 
 .esLeft {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .esRight {
     display: flex;
@@ -28,10 +28,8 @@
 .esPursuit {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     height: fit-content;
     animation: 2.6s ease-in 0s 1 slideUpFade;
-    /* justify-content: space-evenly; */
 }
 
 .esTitle {
@@ -41,9 +39,9 @@
 }
 
 .esTitle:hover {
-    cursor: default;
+    cursor: pointer;
     transition: transform .5s ease;
-    transform: scale(1.03);
+    transform: scale(1.25);
 }
 
 .esP {
@@ -62,7 +60,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 30vh;
+    height: 28vh;
     justify-content: space-evenly;
 }
 
@@ -70,10 +68,33 @@
     width: 100%;
 }
 
+.pursuitLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.pursuitIcon {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: solid 2px #79bfeb;
+    width: 60px;
+    height: 60px;
+    border-radius: 2em;
+}
+
+.pursuitIcon:hover {
+    cursor: pointer;
+    transition: transform .5s ease;
+    transform: scale(1.5);
+}
+
 .skillsIcons {
     width: 100px;
     height: auto;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 .skillsIcons:hover {
