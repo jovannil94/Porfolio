@@ -24,6 +24,7 @@ light blue: #AFD8F2; */
     z-index: 1;
     cursor:pointer;
     text-align: center;
+    border: solid 1px white;
 }
 
 .scrollToTop .p {
