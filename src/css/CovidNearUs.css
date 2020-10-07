@@ -38,7 +38,7 @@
     padding: 1.5em;
 }
 
-.covidNearUsRight:hover {
+/* .covidNearUsRight:hover {
     transition: transform .5s ease;
     transform: scale(1.02);
 }
@@ -391,4 +391,4 @@
         width: 100%;
         height: 100%; 
     }
-}
+} */

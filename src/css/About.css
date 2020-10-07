@@ -64,12 +64,6 @@
     font-size: 40px;
 }
 
-.aboutMe:hover {
-    cursor: default;
-    transition: transform .5s ease;
-    transform: scale(1.03);
-}
-
 .aboutButtonContainer {
     display: flex;
     flex-direction: row;
@@ -117,22 +111,10 @@
     animation: 1.9s ease-in 0s 1 aboutMeSlideLeftFade;
 }
 
-.aboutPhoto:hover {
-    cursor: default;
-    transition: transform .5s ease;
-    transform: scale(1.03);
-}
-
 .aboutQuote {
     color: darkgrey;
     font-size: 20px;
     animation: 2.6s ease-in 0s 1 buttonSlideLeftFade;
-}
-
-.aboutQuote:hover {
-    cursor: default;
-    transition: transform .5s ease;
-    transform: scale(1.03);
 }
 
 @keyframes aboutMeSlideLeftFade {

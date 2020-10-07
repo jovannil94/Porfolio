@@ -1,20 +1,20 @@
+.esContainer {
+    width: 100%;
+    height: 100vh;
+}
+
 .esPage {
     height: 50vw;
     background-image: linear-gradient(45deg, #0231ce, #79bfeb);
     transform: skewY(-6deg);
 }
 
-.portfolioTitle{
+.esTitle{
     color: #79bfeb;
     font-family: "Arial Black", sans-serif;
     font-size: 40px;
-    width: 34%;
-}
-
-.portfolioTitle:hover {
-    cursor: default;
-    transition: transform .5s ease;
-    transform: scale(1.03);
+    width: 100%;
+    text-align: left;
 }
 
 .esContext {
@@ -42,16 +42,15 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    animation: 2.6s ease-in 0s 1 slideUpFade;
 }
 
-.esTitle {
+.pursuitTitle {
     color: white;
     font-family: "Arial Black", sans-serif;
     font-size: 40px;
 }
 
-.esTitle:hover {
+.pursuitTitle:hover {
     cursor: pointer;
     transition: transform .5s ease;
     transform: scale(1.25);
@@ -61,12 +60,6 @@
     color: white;
     font-size: 20px;
     text-align: left;
-}
-
-.esP:hover {
-    cursor: default;
-    transition: transform .5s ease;
-    transform: scale(1.03);
 }
 
 .iconRow {
@@ -124,20 +117,6 @@
 
 .skillsIcons:hover + .hideTitle {
     display: block;
-}
-
-@keyframes slideUpFade {
-    0% {
-        transform: translateY(10%);
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
 }
 
 /* .esContext {

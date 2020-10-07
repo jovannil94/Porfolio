@@ -26,25 +26,28 @@ const responsive = {
 
 const Projects = () => {
     return (
-        <Carousel
-        responsive={responsive}
-        swipeable={true}
-        showDots={true}
-        ssr={true}
-        keyBoardControl={true}
-        customTransition="transform 600ms ease-in-out"
-        transitionDuration={500}
-        arrows={true}
-        infinite={false}
-        focusOnSelect={true}
-        containerClass="carousel-container"
-        deviceType={responsive.deviceType}
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
-        >
-            <div><Triphikers className="projectTriphikers"/></div>
-            <div><CovidNearUs className="projectCovidNearUs"/></div>
-        </Carousel>
+        <div className="porfolioContainer">
+          <h1 className="projectTitle">Projects</h1>
+          <Carousel
+          responsive={responsive}
+          swipeable={true}
+          showDots={true}
+          ssr={true}
+          keyBoardControl={true}
+          customTransition="transform 600ms ease-in-out"
+          transitionDuration={500}
+          arrows={true}
+          infinite={false}
+          focusOnSelect={true}
+          containerClass="carousel-container"
+          deviceType={responsive.deviceType}
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-40-px"
+          >
+              <div><Triphikers className="projectTriphikers"/></div>
+              <div><CovidNearUs className="projectCovidNearUs"/></div>
+          </Carousel>
+        </div>
     )
 }
 

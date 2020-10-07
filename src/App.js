@@ -7,12 +7,11 @@ import Projects from "./components/Projects.js";
 import "./css/App.css";
 
 function App() {
-
-  
   return (
     <div className="App">
       <About/>
       <EducationSkills/>
+      <Projects/>
       {/* <NavBar/> */}
       {/* <Switch>
         <Route exact path={"/"} component={About}/>
