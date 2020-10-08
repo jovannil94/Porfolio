@@ -112,15 +112,12 @@
     transform: scale(1.5);
 }
 
-.hideTitle {
+.skillTitle {
     color: white;
-    display: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.skillsIcons:hover + .hideTitle {
-    display: block;
-}
+
 
 /* .esContext {
     display: flex;

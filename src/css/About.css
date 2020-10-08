@@ -63,7 +63,7 @@
     letter-spacing: .1em;
     animation: 
     typing 4.5s steps(25, end) infinite,
-    blink-caret .75s step-end infinite ;
+    blink-caret .75s step-end infinite;
 }
 
 .terminal {
@@ -159,7 +159,7 @@
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 50% }
+    to { width: 47% }
 }
 
 @keyframes blink-caret {

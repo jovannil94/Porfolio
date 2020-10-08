@@ -22,9 +22,9 @@ const About = ({ eduSkillSection, projectsSection, contactSection }) => {
                         <p className="aboutMe">Hi, my name is <i className="terminal fas fa-terminal"/><i className="aboutName fas">Jovanni Luna</i><br/>An aspiring Full-Stack Web Developer</p>
                     </div>
                     <div className="aboutButtonContainer">
-                        <button className="aboutButton" onClick={gotToEduSkillSection}>Skills</button>
-                        <button className="aboutButton" onClick={gotToProjectsSection}>Projects</button>
-                        <button className="aboutButton" onClick={gotToContactSection}>Contact</button>
+                        <button className="aboutButton" onClick={gotToEduSkillSection}>Skills <i class="fas fa-code"/></button>
+                        <button className="aboutButton" onClick={gotToProjectsSection}>Projects <i class="fas fa-laptop-code"/></button>
+                        <button className="aboutButton" onClick={gotToContactSection}>Contact <i class="fas fa-user-tie"/></button>
                     </div>
                 </div>
             </div>

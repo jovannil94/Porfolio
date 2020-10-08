@@ -34,43 +34,43 @@ const EducationSkills = ({ eduSkillSection }) => {
                         <div className="iconRow">
                             <div className="iconDetails">
                                 <img src={jsIcon} alt="js" className="skillsIcons"/>
-                                <p className="hideTitle">JavaScript</p>
+                                <p className="skillTitle">JavaScript</p>
                             </div>
                             <div className="iconDetails">
                                 <img src={reactIcon} alt="react" className="skillsIcons"/>
-                                <p className="hideTitle">React</p>
+                                <p className="skillTitle">React</p>
                             </div>
                             <div className="iconDetails">
                                 <img src={gitIcon} alt="git" className="skillsIcons"/>
-                                <p className="hideTitle">Git</p>
+                                <p className="skillTitle">Git</p>
                             </div>
                         </div>
                         <div className="iconRow">
                             <div className="iconDetails">
                                 <img src={cssIcon} alt="css" className="skillsIcons"/>
-                                <p className="hideTitle">CSS</p>
+                                <p className="skillTitle">CSS</p>
                             </div>
                             <div className="iconDetails">
                                 <img src={htmlIcon} alt="html" className="skillsIcons"/>
-                                <p className="hideTitle">HTML</p>
+                                <p className="skillTitle">HTML</p>
                             </div>
                             <div className="iconDetails">
                                 <img src={postgresIcon} alt="postgreSQL" className="skillsIcons"/>
-                                <p className="hideTitle">PostgreSQL</p>
+                                <p className="skillTitle">PostgreSQL</p>
                             </div>
                         </div>
                         <div className="iconRow">
                             <div className="iconDetails">
                                 <img src={nodeIcon} alt="node" className="skillsIcons"/>
-                                <p className="hideTitle">Node JS</p>
+                                <p className="skillTitle">Node JS</p>
                             </div>
                             <div className="iconDetails">
                                 <img src={postIcon} alt="post" className="skillsIcons"/>
-                                <p className="hideTitle">Postman</p>
+                                <p className="skillTitle">Postman</p>
                             </div>
                             <div className="iconDetails">
                                 <img src={expressIcon} alt="express" className="skillsIcons"/>
-                                <p className="hideTitle">Express JS</p>
+                                <p className="skillTitle">Express JS</p>
                             </div>
                         </div>
                     </div>
