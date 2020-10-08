@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useWindowScroll } from 'react-use';
-
 const ScrollToTop = () => {
     const {y:pageYOffset} = useWindowScroll();
     const [visibility, setVisibility] = useState(false);
@@ -21,7 +20,7 @@ const ScrollToTop = () => {
 
     return (
         <div className="scrollToTop" onClick={scrollToTop}>
-           <p>^</p>
+           <i class="icon fas fa-chevron-up"></i>
         </div>
     )
 }

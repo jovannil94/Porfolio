@@ -19,7 +19,7 @@ const About = ({ eduSkillSection, projectsSection, contactSection }) => {
             <div className="aboutLeft">
                 <div className="aboutContext">
                     <div className className="aboutIntro">
-                        <p className="aboutMe">Hi, my name is <i className="aboutName">Jovanni Luna</i><br/>An aspiring Full-Stack Web Developer</p>
+                        <p className="aboutMe">Hi, my name is <i class="aboutName fas fa-terminal"/><i className="aboutName">Jovanni Luna</i><br/>An aspiring Full-Stack Web Developer</p>
                     </div>
                     <div className="aboutButtonContainer">
                         <button className="aboutButton" onClick={gotToEduSkillSection}>Skills</button>
