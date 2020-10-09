@@ -8,6 +8,7 @@ export const Contact = ({ contactSection }) => {
             <h1 className="contactTitle">Contact</h1>
             <div className="contactContext">
                 <div className="contactLeft">
+                    <h1 className="contactFormTitle">More Info</h1>
                     <div className="contactButtonContainer">
                         <button className="contactResumeButton" ><span><i class="contactResume fas fa-file-alt"/></span> Resume</button>
                         <button className="contactGitButton" onClick={()=>window.open('https://github.com/jovannil94')}><span><i class="contactGit fab fa-github-square"/> jovannil94</span></button>
@@ -16,6 +17,7 @@ export const Contact = ({ contactSection }) => {
                     </div>
                 </div>
                 <div className="contactRight">
+                    <h1 className="contactFormTitle">Want to message me or have a question?</h1>
                     <Form/>
                 </div>
             </div>

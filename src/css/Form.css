@@ -2,4 +2,56 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputBox {
+    width: 80%;
+    border-radius: 5px;
+    height: 3vh;
+    border: solid 2px white;
+}
+
+.inputBox:focus {
+    outline: none;
+}
+
+.textBox {
+    width: 80%;
+    height: 30vh;
+    border-radius: 5px;
+    border: solid 2px white;
+}
+
+.textBox:focus {
+    outline: none;
+}
+
+.submitButton {
+    background-color: white;
+    color: #79bfeb;
+    width: 60%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: solid 2px white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    background-color: #79bfeb;
+    color: white;
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+.submitButton:focus {
+    outline: none;
 }
