@@ -12,6 +12,30 @@
     text-align: center;
 }
 
+.contactContext {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.contactLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+    height: 80vh;
+}
+
+.contactRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+    height: 80vh;
+}
+
 .contactButtonContainer {
     display: flex;
     flex-direction: column;
@@ -21,10 +45,10 @@
     align-items: center;
 }
 
-.contactButton {
+.contactResumeButton {
     background-color: white;
     color: #79bfeb;
-    width: 30%;
+    width: 50%;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border: solid 2px white;
@@ -36,7 +60,7 @@
     border-radius: 12px;
 }
 
-.contactButton:hover {
+.contactResumeButton:hover {
     cursor: pointer;
     background-color: #79bfeb;
     color: white;
@@ -44,10 +68,120 @@
     transform: scale(1.1);
 }
 
-/* .contactButton:hover :after{
+.contactResumeButton:hover .contactResume {
+    display: none;
+}
+
+.contactResumeButton:hover :before{
+    content: "Open";
+}
+
+.contactResumeButton:focus {
+    outline: none;
+}
+
+.contactGitButton {
+    background-color: white;
+    color: #79bfeb;
+    width: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: solid 2px white;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    content: 'Open';
-} */
+    border-radius: 12px;
+}
+
+.contactGitButton:hover {
+    cursor: pointer;
+    background-color: #79bfeb;
+    color: white;
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+.contactGitButton:hover .contactGit {
+    display: none;
+}
+
+.contactGitButton:hover :before{
+    content: "View Github";
+}
+
+.contactGitButton:focus {
+    outline: none;
+}
+
+.contactLinkButton {
+    background-color: white;
+    color: #79bfeb;
+    width: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: solid 2px white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.contactLinkButton:hover {
+    cursor: pointer;
+    background-color: #79bfeb;
+    color: white;
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+.contactLinkButton:hover .contactLink {
+    display: none;
+}
+
+.contactLinkButton:hover :before{
+    content: "View LinkedIn";
+}
+
+.contactLinkButton:focus {
+    outline: none;
+}
+
+.contactMailButton {
+    background-color: white;
+    color: #79bfeb;
+    width: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: solid 2px white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.contactMailButton:hover {
+    cursor: pointer;
+    background-color: #79bfeb;
+    color: white;
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+.contactMailButton:hover .contactMail {
+    display: none;
+}
+
+.contactMailButton:hover :before{
+    content: "View LinkedIn";
+}
+
+.contactMailButton:focus {
+    outline: none;
+}
+
