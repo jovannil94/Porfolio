@@ -24,7 +24,7 @@ export const Contact = ({ contactSection }) => {
                     <Form/>
                 </div>
             </div>
-            <p><i className="nameBottom">Jovanni Luna</i> <i className="copyBottom">©2020</i></p>
+            <p><i className="nameBottom">Jovanni Luna</i> <i className="copyBottom">© 2020</i></p>
         </div>
     )
 }
