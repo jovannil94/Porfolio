@@ -52,6 +52,10 @@
     align-items: center;
 }
 
+.contactResumePdf {
+    width: 100%;
+}
+
 .contactResumeButton {
     background-color: white;
     color: #79bfeb;
