@@ -1,3 +1,8 @@
+.carouselContainer {
+    width: 100vw;
+    height: 77vh;
+}
+
 .projectTitle{
     color: #79bfeb;
     font-family: "Arial Black", sans-serif;
@@ -8,10 +13,10 @@
 
 .projectTriphikers {
     width: 100vw;
-    height: fit-content;
+    /* height: 100vh; */
 }
 
 .projectCovidNearUs {
     width: 100vw;
-    height: fit-content;
+    /* height: fit-content; */
 }

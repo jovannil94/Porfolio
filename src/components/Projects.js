@@ -26,9 +26,10 @@ const responsive = {
 
 const Projects = ({ projectsSection }) => {
     return (
-        <div className="porfolioContainer" ref={projectsSection}>
+        <div className="projectContainer" ref={projectsSection}>
           <h1 className="projectTitle">Projects</h1>
           <Carousel
+          className="carouselContainer"
           responsive={responsive}
           swipeable={true}
           showDots={true}

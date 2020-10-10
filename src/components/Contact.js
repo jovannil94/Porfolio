@@ -1,6 +1,7 @@
 import React from 'react';
 import "../css/Contact.css";
 import { Form } from '../helper/Form';
+import pdf from "../documents/Resume_JovanniLuna.pdf";
 
 export const Contact = ({ contactSection }) => {
     return (
@@ -21,6 +22,7 @@ export const Contact = ({ contactSection }) => {
                     <Form/>
                 </div>
             </div>
+            <p><i className="nameBottom">Jovanni Luna</i> <i className="copyBottom">©2020</i></p>
         </div>
     )
 }
