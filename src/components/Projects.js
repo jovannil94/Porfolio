@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Projects.css"
+import "../css/Projects.css";
 import CovidNearUs from "../helper/CovidNearUs";
 import Triphikers from "../helper/Triphikers";
 import Carousel from "react-multi-carousel";
@@ -35,15 +35,16 @@ const Projects = ({ projectsSection }) => {
           showDots={true}
           ssr={true}
           keyBoardControl={true}
-          customTransition="transform 600ms ease-in-out"
+          customTransition="transform 700ms ease-in-out"
           transitionDuration={500}
           arrows={true}
           infinite={false}
           focusOnSelect={true}
           containerClass="carousel-container"
           deviceType={responsive.deviceType}
-          dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px"
+          // dotListClass="custom-dot-list-style"
+          // itemClass="carousel-item-padding-40-px"
+          // additionalTransfrom={-10 * 2}
           >
               <div><Triphikers className="projectTriphikers"/></div>
               <div><CovidNearUs className="projectCovidNearUs"/></div>

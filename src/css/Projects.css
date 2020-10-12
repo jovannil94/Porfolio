@@ -1,6 +1,6 @@
 .carouselContainer {
     width: 100vw;
-    height: 77vh;
+    height: fit-content;
 }
 
 .projectTitle{
@@ -13,10 +13,10 @@
 
 .projectTriphikers {
     width: 100vw;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .projectCovidNearUs {
     width: 100vw;
-    /* height: fit-content; */
+    height: fit-content;
 }
