@@ -42,9 +42,6 @@ const Projects = ({ projectsSection }) => {
           focusOnSelect={true}
           containerClass="carousel-container"
           deviceType={responsive.deviceType}
-          // dotListClass="custom-dot-list-style"
-          // itemClass="carousel-item-padding-40-px"
-          // additionalTransfrom={-10 * 2}
           >
               <div><Triphikers className="projectTriphikers"/></div>
               <div><CovidNearUs className="projectCovidNearUs"/></div>

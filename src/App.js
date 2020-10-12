@@ -1,6 +1,4 @@
 import React, { useRef } from 'react';
-import NavBar from './components/NavBar';
-import { Route, Switch } from "react-router-dom";
 import About from "./components/About.js";
 import EducationSkills from "./components/EducationSkills.js";
 import Projects from "./components/Projects.js";
