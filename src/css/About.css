@@ -167,156 +167,13 @@
     50% { border-color: #79bfeb; }
 }
 
-
-/* .aboutContext {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-.aboutTitle {
-    margin-top: 1em;
-    width: 89vw;
-    height: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    padding: .2em;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    margin-bottom: 1em;
-}
-
-.aboutTitle:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.aboutLeft {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    height: fit-content;
-}
-
-.aboutRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 40%;
-    height: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    padding: 1.5em;
-}
-
-.aboutRight:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.aboutPicture {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    padding: 1.5em;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    margin-bottom: 1em;
-}
-
-.aboutPhoto {
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    height: auto;
-    background-position: center center;
-}
-
-.aboutPicture:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.aboutConnect {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    height: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    padding: 1.5em;
-}
-
-.aboutConnect:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.buttonsAbout {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 25vh;
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 1060px) {
     .aboutContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         height: fit-content;
-    }
-
-    .aboutTitle {
-        margin-top: 1em;
-        width: 90vw;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .aboutContext {
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-        align-items: center;
-        justify-content: space-evenly;
     }
 
     .aboutLeft {
@@ -326,6 +183,8 @@
         justify-content: space-between;
         width: 90vw;
         height: fit-content;
+        padding: 1em;
+        margin-bottom: 1em;
     }
 
     .aboutRight {
@@ -335,130 +194,11 @@
         justify-content: space-between;
         width: 90vw;
         height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
+        padding: 1em;
         margin-bottom: 1em;
     }
 
-    .aboutPicture {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 90vw;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .aboutConnect {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90vw;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
+    .aboutButtonContainer {
+        width: 100%;
     }
 }
-
-@media (max-width: 464px) {
-    .aboutContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: fit-content;
-    }
-
-    .aboutTitle {
-        margin-top: 1em;
-        width: 80%;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .aboutContext {
-        display: flex;
-        flex-direction: column;
-        width: 91%;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .aboutLeft {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        width: 91%;
-        height: fit-content;
-    }
-
-    .aboutRight {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        width: 88%;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .aboutPicture {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 95%;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .aboutConnect {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 95%;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-} */
