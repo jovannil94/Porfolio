@@ -104,6 +104,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: fit-content;
         align-items: center;
         justify-content: center;
     }
@@ -112,6 +113,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: fit-content;
         align-items: center;
         justify-content: center;
     }
@@ -125,402 +127,39 @@
 
     .covidNearUsTitle{
         display: flex;
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
-}
 
-/* .covidNearUsContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    height: fit-content;
-}
-
-.covidNearUsContext{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-.covidNearUsLeft {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    height: fit-content;
-}
-
-.covidNearUsRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    height: fit-content;
-    justify-content: space-between;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    padding: 1.5em;
-} */
-
-/* .covidNearUsRight:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.covidNearUsTitle {
-    margin-top: 1em;
-    width: 89vw;
-    height: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    padding: .2em;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    margin-bottom: 1em;
-}
-
-.covidNearUsTitle:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.covidNearUsVid {
-    width: 100%;
-    height: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    padding: 1.5em;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    margin-bottom: 1em;
-}
-
-.covidNearUsVid:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.covidNearUsAbout{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    opacity: 0.85;
-    cursor: default;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    padding: 1.5em;
-}
-
-.covidNearUsAbout:hover {
-    transition: transform .5s ease;
-    transform: scale(1.02);
-}
-
-.frameContainer { 
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
-    height: 60vh;
-    background-color: #f8f8f8;
-    border: solid 5px #1F3541;
-    color: #1F3541;
-    border-radius: 5px;
-}
-
-.frameContainer iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%; 
-}
-
-.videoContainer { 
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
-}
-
-.videoContainer iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%; 
-    border-radius: 5px;
-}
-
-@media (max-width: 1024px) {
-    .covidNearUsContainer {
+    .covidNearUsButtonContainer {
         display: flex;
         flex-direction: column;
-        align-items: center;
         width: 100%;
-        height: fit-content;
-    }
-
-    .covidNearUsTitle {
-        margin-top: 1em;
-        width: 90vw;
-        height: fit-content;
-
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .covidNearUsContext {
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    .covidNearUsLeft {
+    .covidNearUsDemoLinks {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 90vw;
-        height: fit-content;
-    }
-
-    .covidNearUsRight {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 90vw;
-        height: fit-content;
-
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .covidNearUsVid {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 90vw;
-        height: fit-content;
-
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .covidNearUsAbout {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90vw;
-        height: fit-content;
-
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .frameContainer { 
-        position: relative;
-        overflow: hidden;
         width: 100%;
-        padding-top: 56.25%;
-        height: 60vh;
-    }
-    
-    .frameContainer iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%; 
-    }
-
-    .videoContainer { 
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%;
-    }
-    
-    .videoContainer iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%; 
-    }
-}
-
-@media (max-width: 464px) {
-    .covidNearUsContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: fit-content;
-    }
-
-    .covidNearUsTitle {
-        margin-top: 1em;
-        width: 80vw;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .covidNearUsContext {
-        display: flex;
-        flex-direction: column;
-        width: 80vw;
         align-items: center;
         justify-content: space-evenly;
-    }
-
-    .covidNearUsLeft {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        width: 80vw;
-        height: fit-content;
-    }
-
-    .covidNearUsRight {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        width: 80vw;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
         margin-bottom: 1em;
     }
 
-    .covidNearUsVid {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 80vw;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
+    .projectsP {
+        text-align: center;
+    }
+
+    .videoContainer {
+        width: 100%;
         margin-bottom: 1em;
     }
 
-    .covidNearUsAbout {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 80vw;
-        height: fit-content;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        opacity: 0.85;
-        cursor: default;
-        padding: 1.5em;
+    .covidNearUsButton {
+        width: 40%;
         margin-bottom: 1em;
     }
-
-    .frameContainer { 
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%;
-        height: 60vh;
-    }
-    
-    .frameContainer iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%; 
-    }
-    .videoContainer { 
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%;
-    }
-    
-    .videoContainer iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%; 
-    }
-} */
+}
