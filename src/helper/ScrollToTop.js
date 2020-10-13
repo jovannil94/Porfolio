@@ -20,7 +20,7 @@ const ScrollToTop = () => {
 
     return (
         <div className="scrollToTop" onClick={scrollToTop}>
-           <i class="icon fas fa-chevron-up"></i>
+           <i className="icon fas fa-chevron-up"></i>
         </div>
     )
 }
