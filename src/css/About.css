@@ -183,6 +183,7 @@
         width: 90vw;
         height: fit-content;
         padding: 1em;
+        margin-bottom: 1em;
     }
 
     .aboutContext {

@@ -19,7 +19,6 @@ light blue: #AFD8F2; */
 .scrollToTop {
     position: fixed;
     bottom: 12px;
-    left: 50%;
     width: 40px;
     height: 40px;
     border-radius: 100%;
