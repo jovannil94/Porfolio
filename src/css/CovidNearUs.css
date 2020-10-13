@@ -87,7 +87,7 @@
     justify-content: space-evenly;
 }
 
-@media (max-width: 464px) {
+@media (max-width: 1040px) {
     .covidNearUsContainer {
         width: 100%;
         height: fit-content;

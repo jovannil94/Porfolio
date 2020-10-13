@@ -14,8 +14,8 @@ import "../css/EducationSkills.css";
 
 const EducationSkills = ({ eduSkillSection }) => {
     return (
-        <div className="esContainer" ref={eduSkillSection}>
-            <h1 className="esTitle">Education & Skills</h1>
+        <div className="esContainer">
+            <h1 className="esTitle" ref={eduSkillSection}>Education & Skills</h1>
             <div className="esPage">
                 <div className="esContext">
                     <div className="esLeft">

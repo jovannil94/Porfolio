@@ -21,7 +21,7 @@
     height: fit-content;
 }
 
-@media (max-width: 464px) {
+@media (max-width: 1040px) {
     .projectTitle {
         display: flex;
         flex-direction: column;

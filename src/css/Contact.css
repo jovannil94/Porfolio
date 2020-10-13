@@ -206,7 +206,7 @@
     font-family: "Arial Black", sans-serif;
 }
 
-@media (max-width: 464px) {
+@media (max-width: 1040px) {
     .contactContainer {
         width: 100%;
         height: fit-content;

@@ -167,7 +167,7 @@
     50% { border-color: #79bfeb; }
 }
 
-@media (max-width: 464px) {
+@media (max-width: 1040px) {
     .aboutContainer {
         display: flex;
         flex-direction: column;
