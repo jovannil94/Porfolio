@@ -20,3 +20,15 @@
     width: 100vw;
     height: fit-content;
 }
+
+@media (max-width: 464px) {
+    .projectTriphikers {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .projectCovidNearUs {
+        width: 100%;
+        height: fit-content;
+    }
+}

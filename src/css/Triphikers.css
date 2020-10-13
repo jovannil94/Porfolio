@@ -25,7 +25,6 @@
 .tripHikersLeft {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
     width: 50%;
     height: 100vh;
@@ -122,6 +121,100 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
+}
+
+@media (max-width: 464px) {
+    .tripHikersContainer {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .tripHikersContext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tripHikersLeft {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tripHikersRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tripHikersAbout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tripHikersTitle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tripHikersButtonContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .tripHikersDemoLinks {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 1em;
+    }
+
+    .tripHikersQA1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 1em;
+    }
+
+    .tripHikersQA2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 1em;
+    }
+
+    .projectsP {
+        text-align: center;
+    }
+
+    .videoContainer {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .tripHikersButton {
+        width: 40%;
+    }
 }
 
 /* .tripHikersContext{

@@ -173,7 +173,6 @@
         flex-direction: column;
         align-items: center;
         height: fit-content;
-        margin-bottom: 1em;
     }
 
     .aboutLeft {
@@ -184,7 +183,6 @@
         width: 90vw;
         height: fit-content;
         padding: 1em;
-        margin-bottom: 1em;
     }
 
     .aboutContext {
@@ -205,7 +203,6 @@
         width: 90vw;
         height: fit-content;
         padding: 1em;
-        margin-bottom: 1em;
     }
 
     .aboutButtonContainer {

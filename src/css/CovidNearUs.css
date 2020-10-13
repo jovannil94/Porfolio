@@ -87,6 +87,49 @@
     justify-content: space-evenly;
 }
 
+@media (max-width: 464px) {
+    .covidNearUsContainer {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .covidNearUsContext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .covidNearUsLeft {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .covidNearUsRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .covidNearUsAbout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .covidNearUsTitle{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 /* .covidNearUsContainer{
     display: flex;
     flex-direction: column;
