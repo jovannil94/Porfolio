@@ -167,13 +167,13 @@
     50% { border-color: #79bfeb; }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 464px) {
     .aboutContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
         height: fit-content;
+        margin-bottom: 1em;
     }
 
     .aboutLeft {
@@ -185,6 +185,12 @@
         height: fit-content;
         padding: 1em;
         margin-bottom: 1em;
+    }
+
+    .aboutContext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .aboutRight {
@@ -200,5 +206,10 @@
 
     .aboutButtonContainer {
         width: 100%;
+    }
+
+    .aboutName {
+        font-size: 38px;
+        letter-spacing: 0;
     }
 }
