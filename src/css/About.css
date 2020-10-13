@@ -193,6 +193,10 @@
         justify-content: center;
     }
 
+    .aboutMe {
+        text-align: center;
+    }
+
     .aboutRight {
         display: flex;
         flex-direction: column;
@@ -211,5 +215,10 @@
     .aboutName {
         font-size: 38px;
         letter-spacing: 0;
+    }
+
+    .aboutPhoto {
+        width: 200px;
+        height: 200px;
     }
 }
