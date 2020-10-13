@@ -22,6 +22,14 @@
 }
 
 @media (max-width: 464px) {
+    .projectTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
     .projectTriphikers {
         width: 100%;
         height: fit-content;

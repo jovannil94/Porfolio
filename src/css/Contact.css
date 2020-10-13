@@ -205,3 +205,56 @@
     color: rgb(230, 228, 228);
     font-family: "Arial Black", sans-serif;
 }
+
+@media (max-width: 464px) {
+    .contactContainer {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .contactTitle{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .contactContext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactLeft {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactResumeButton {
+        width: 90%;
+    }
+
+    .contactGitButton {
+        width: 90%;
+    }
+
+    .contactLinkButton {
+        width: 90%;
+    }
+
+    .contactMailButton {
+        width: 90%;
+    }
+
+    .inputBox {
+        height: 6vh;
+    }
+}
