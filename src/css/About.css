@@ -26,7 +26,6 @@
     flex-direction: column;
     align-items: flex-start;
     max-height: 50vh;
-    animation: 1.9s ease-in 0s 1 aboutMeSlideLeftFade;
 }
 
 .aboutQuotePic {
@@ -97,7 +96,6 @@
     display: inline-block;
     font-size: 20px;
     border-radius: 12px;
-    animation: 2.6s ease-in 0s 1 buttonSlideLeftFade;
 }
 
 .aboutButton:hover {
@@ -120,41 +118,11 @@
     height: 300px;
     object-fit: cover;
     border-radius: 100%;
-    animation: 1.9s ease-in 0s 1 aboutMeSlideLeftFade;
 }
 
 .aboutQuote {
     color: darkgrey;
     font-size: 20px;
-    animation: 2.6s ease-in 0s 1 buttonSlideLeftFade;
-}
-
-@keyframes aboutMeSlideLeftFade {
-    0% {
-        transform: translateX(-10%);
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes buttonSlideLeftFade {
-    0% {
-        transform: translateX(-15%);
-        opacity: 0;
-    }
-    80% {
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
 }
 
 @keyframes typing {
