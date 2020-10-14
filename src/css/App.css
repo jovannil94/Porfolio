@@ -43,3 +43,9 @@ light blue: #AFD8F2; */
         transform: translateY(-2px);
     }
 }
+
+@media (max-width: 464px) {
+    .scrollToTop {
+        display: none;
+    }
+}
