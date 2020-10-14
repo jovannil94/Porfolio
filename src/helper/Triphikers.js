@@ -1,18 +1,25 @@
-import React from "react";
-import "../css/Triphikers.css"
+import React, { useEffect } from "react";
+import "../css/Triphikers.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Triphikers = () => {
+
+    useEffect(() => {
+        Aos.init({duration:1500});
+      }, [])
+
     return (
         <div className="tripHikersContainer">
             <div className="tripHikersContext">
-                <div className="tripHikersLeft">
+                <div data-aos="fade-up" className="tripHikersLeft">
                     <div className="tripHikersAbout">
                         <p className="tripHikersTitle">Triphikers</p>    
                         <p className="projectsP">Triphikers is a 10-week Capstone 3-person project with the aim of allowing users to post, share, and join others trips from around the world. We hope to connect and encourage people to travel, share photos, and make new friends. Hosted live, both front and backend, Triphikers uses several complex components to achieve the functionality and UI/UX we deemed best for our users.</p>
                         <p className="projectsP">Special thanks to our Google technical mentor Josh Click, mParticle UI/UX mentor Sarah Skapik, Pursuit Web Development Instructor Corey Ladovsky, Pursuit Program Manager Caroline Kang, and the 190 people who attended. If you wish to see more explanations and Q&A sessions about the technical approaches to this application please feel free to visit the Youtube links.</p>
                     </div>
                 </div>
-                <div className="tripHikersRight">
+                <div data-aos="fade-left" className="tripHikersRight">
                     <div className="videoContainer">
                         <iframe title="triphikersDemo" width="560" height="315" src="https://www.youtube.com/embed/fJBdcmVWWoY?start=2510" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>

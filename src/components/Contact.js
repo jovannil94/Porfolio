@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../css/Contact.css";
 import { Form } from '../helper/Form';
 import pdf from "../documents/Resume_JovanniLuna.pdf";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export const Contact = ({ contactSection }) => {
+
+    useEffect(() => {
+        Aos.init({duration:1500});
+      }, [])
+
     return (
         <div className="contactContainer" ref={contactSection}>
-            <h1 className="contactTitle">Contact</h1>
+            <h1 data-aos="fade-down" className="contactTitle">Contact</h1>
             <div className="contactContext">
-                <div className="contactLeft">
+                <div data-aos="fade-right" className="contactLeft">
                     <h1 className="contactFormTitle">More Info</h1>
                     <div className="contactButtonContainer">
                         <a className="contactResumePdf" href={pdf} rel="noopener noreferrer" target="_blank">
@@ -19,7 +26,7 @@ export const Contact = ({ contactSection }) => {
                         <button className="contactMailButton" onClick={()=>window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=jovanniluna@pursuit.org;jovannil94@gmail.com')}><span><i className="contactMail fas fa-envelope-square"/></span> jovanniluna@pursuit.org</button>
                     </div>
                 </div>
-                <div className="contactRight">
+                <div data-aos="fade-left" className="contactRight">
                     <h1 className="contactFormTitle">Want to message me or have a question?</h1>
                     <Form/>
                 </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cssIcon from "../images/icons/cssIcon.png";
 import gitIcon from "../images/icons/gitIcon.png";
 import htmlIcon from "../images/icons/htmlIcon.png";
@@ -11,14 +11,21 @@ import postgresIcon from "../images/icons/postgreSQLIcon.png";
 import pursuitIcon from "../images/icons/pursuitIcon.jpg";
 import 'fontsource-roboto';
 import "../css/EducationSkills.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const EducationSkills = ({ eduSkillSection }) => {
+
+    useEffect(() => {
+        Aos.init({duration:1500});
+    }, [])
+
     return (
         <div className="esContainer">
-            <h1 className="esTitle" ref={eduSkillSection}>Education & Skills</h1>
+            <h1 data-aos="fade-down" className="esTitle" ref={eduSkillSection}>Education & Skills</h1>
             <div className="esPage">
                 <div className="esContext">
-                    <div className="esLeft">
+                    <div data-aos="fade-up" className="esLeft">
                         <div className="esPursuit">
                             <div className="pursuitLinks">
                                 <p className="pursuitTitle" onClick={()=>window.open('https://www.pursuit.org/')}>Pursuit</p>
@@ -28,7 +35,7 @@ const EducationSkills = ({ eduSkillSection }) => {
                             <p className="esP">Gained hands-on experience with Javascript, HTML, CSS, Node, Express, React/Redux, PostgreSQL, APIs, Git, Data Structures, Algorithms, and tech principles and culture via both team/individual projects, code reviews, and pair programming.</p>
                         </div>
                     </div>
-                    <div className="esRight">
+                    <div data-aos="fade-left" className="esRight">
                         <div className="iconRow">
                             <div className="iconDetails">
                                 <img src={jsIcon} alt="js" className="skillsIcons"/>
